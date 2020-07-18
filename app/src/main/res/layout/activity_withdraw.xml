@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/COLOR_FFF2F2F2"
+        >
+
+        <include layout="@layout/view_actionbar" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_14"
+            android:paddingRight="@dimen/dp_14"
+            android:background="#ffffff"
+            >
+            <include
+                android:id="@+id/include_bank_card"
+                layout="@layout/sub_setting"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                />
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp">
+
+            <TextView
+                android:id="@+id/tv_lai_fu_quota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_10"
+                android:text="可提佣金："
+                android:textSize="@dimen/textsize_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dp_10"
+                android:paddingTop="@dimen/dp_10">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_15"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_withdraw_num"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:textColor="@color/COLOR_FF1E90FF"
+                    android:textSize="@dimen/textsize_18" />
+
+                <TextView
+                    android:id="@+id/tv_all_withdraw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all_withdraw"
+                    android:textColor="@color/COLOR_FF1E90FF"
+                    android:textSize="@dimen/textsize_13" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFAAAAAA" />
+
+            <TextView
+                android:id="@+id/tv_notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dp_5"
+                android:visibility="gone"
+                android:text="" />
+            <TextView
+                android:id="@+id/tv_withdraw_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/dp_15"
+                android:textColor="@color/COLOR_FFA0A4AD"
+                android:text="" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_check_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_rate"
+            android:textColor="@color/COLOR_FFD84F47"
+            android:drawableLeft="@mipmap/questionmark_icon"
+            android:drawablePadding="@dimen/dp_5"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_gravity="right"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/btn_withdraw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@drawable/bg_rectangle_withdraw_btn"
+            android:text="@string/ok"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <com.kasa.ola.widget.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionbar"
+        android:visibility="visible" />
+
+</RelativeLayout>

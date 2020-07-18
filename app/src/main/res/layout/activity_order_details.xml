@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_FFF2F2F2"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/view_mall_order_detail_head"/>
+
+                    <!--<include layout="@layout/view_mall_order_detail_foot"/>-->
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|end"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_12"
+                >
+
+                <TextView
+                    android:id="@+id/tv_operate_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_cancel_corner"
+                    android:paddingTop="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:paddingLeft="@dimen/dp_26"
+                    android:paddingRight="@dimen/dp_26"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:gravity="center"
+                    android:text="@string/pay_right_now"
+                    android:textColor="@color/COLOR_FF333333"
+                    android:textSize="14sp"
+                    tools:text="@string/cancel_order" />
+                <TextView
+                    android:id="@+id/tv_operate_middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_reset_corner"
+                    android:paddingTop="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:paddingLeft="@dimen/dp_26"
+                    android:paddingRight="@dimen/dp_26"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:gravity="center"
+                    android:text="@string/pay_right_now"
+                    android:textColor="@color/COLOR_FF1677FF"
+                    android:textSize="14sp"
+                    tools:text="@string/cancel_order" />
+                <TextView
+                    android:id="@+id/tv_operate_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_confirm_corner"
+                    android:paddingTop="@dimen/dp_10"
+                    android:paddingBottom="@dimen/dp_10"
+                    android:paddingLeft="@dimen/dp_26"
+                    android:paddingRight="@dimen/dp_26"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:gravity="center"
+                    android:text="@string/pay_right_now"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.kasa.ola.widget.LoadingView
+            android:id="@+id/loading_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+</LinearLayout>

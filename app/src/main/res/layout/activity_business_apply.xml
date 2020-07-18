@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/COLOR_FFF2F2F2"
+    >
+    <include
+        layout="@layout/view_actionbar"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:background="@color/white"
+            >
+           <LinearLayout
+               style="@style/shop_apply_item_ll"
+               >
+               <TextView
+                   android:text="@string/shop_organ_name"
+                   style="@style/shop_apply_item_left"
+                   />
+
+               <EditText
+                   android:id="@+id/et_shop_organ_name"
+                   style="@style/shop_apply_item_right"
+                   />
+
+           </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/corporate_representative"
+                    style="@style/shop_apply_item_left"
+                    />
+
+                <EditText
+                    android:id="@+id/et_corporate_representative"
+                    style="@style/shop_apply_item_right"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/shop_organ_phone"
+                    style="@style/shop_apply_item_left"
+                    />
+
+                <EditText
+                    android:id="@+id/et_shop_organ_phone"
+                    style="@style/shop_apply_item_right"
+                    android:inputType="number"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/current_account_holder_name"
+                    style="@style/shop_apply_item_left"
+                    />
+
+                <EditText
+                    android:id="@+id/et_current_account_holder_name"
+                    style="@style/shop_apply_item_right"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/shop_organ_address"
+                    style="@style/shop_apply_item_left"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_shop_organ_address"
+                    style="@style/shop_apply_item_right"
+                    android:drawableRight="@mipmap/go_next"
+                    android:gravity="right"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/detail_address"
+                    style="@style/shop_apply_item_left"
+                    />
+
+                <EditText
+                    android:id="@+id/et_detail_address"
+                    style="@style/shop_apply_item_right"
+                    />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/is_self_mention_point"
+                    style="@style/shop_apply_item_left"
+                    />
+
+               <!-- <TextView
+                    android:id="@+id/tv_is_self_mention_point"
+                    style="@style/shop_apply_item_right"
+                    android:drawableRight="@mipmap/go_next"
+                    />-->
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+                    <!--<ToggleButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        />-->
+                    <Switch
+                        android:id="@+id/switch_is_self_mention_point"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:theme="@style/MySwitch"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />
+            <LinearLayout
+                style="@style/shop_apply_item_ll"
+                >
+                <TextView
+                    android:text="@string/load_business_license"
+                    style="@style/shop_apply_item_left"
+                    />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+                <ImageView
+                    android:id="@+id/iv_business_license"
+                    android:layout_width="@dimen/dp_100"
+                    android:layout_height="@dimen/dp_70"
+                    android:scaleType="fitCenter"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:src="@mipmap/business_license"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="@dimen/dp_5"
+                    />
+               <!-- <TextView
+                    android:id="@+id/tv_load_business_license"
+                    style="@style/shop_apply_item_right"
+                    android:drawableRight="@mipmap/go_next"
+                    />-->
+            </LinearLayout>
+         <!--   <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/COLOR_FFF2F2F2"
+                />-->
+
+           <!-- <ImageView
+                android:id="@+id/iv_business_license"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20"
+                android:src="@mipmap/business_license"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp_5"
+                />-->
+            <LinearLayout style="@style/shop_apply_item_ll">
+
+                <TextView
+                    style="@style/shop_apply_item_left"
+                    android:text="@string/upload_shop_images" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+            <Button
+                android:id="@+id/btn_confirm"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_42"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_marginBottom="@dimen/dp_5"
+                android:background="@drawable/bg_rectangle_deep_blue_corner"
+                android:text="@string/ok"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_15" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

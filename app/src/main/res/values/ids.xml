@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="xbanner_pointId" type="id" />
+    <!--<item name="view_cf_trade" type="id" />
+    <item name="view_cf_mall" type="id" />
+    <item name="view_mine_property" type="id" />
+    <item name="view_life_service" type="id" />
+    <item name="view_my_member" type="id" />
+    <item name="view_setting" type="id" />
+    <item name="view_leader" type="id" />
+    <item name="view_crowd_funding" type="id" />
+    <item name="view_xlcx" type="id" />
+    <item name="view_cxl" type="id" />
+    <item name="view_service" type="id" />
+    <item name="view_fulong_mall" type="id" />
+    <item name="view_QR_code" type="id" />-->
+</resources>

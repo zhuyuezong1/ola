@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_FFF2F2F2"
+    android:orientation="vertical"
+    >
+    <include
+        layout="@layout/view_actionbar"
+        />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/comment_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.kasa.ola.widget.LoadMoreRecyclerView
+                    android:id="@+id/comment_recycle_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_no_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/COLOR_FF666666"
+                    android:textSize="@dimen/textsize_15"
+                    android:text="@string/no_comment"
+                    android:layout_centerInParent="true"
+                    android:drawableTop="@mipmap/nocomment"
+                    android:visibility="gone"
+                    />
+
+            </RelativeLayout>
+
+            <com.kasa.ola.widget.LoadingView
+                android:id="@+id/loading_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/include_titlebar"
+        layout="@layout/sub_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:scaleType="center"
+        android:src="@mipmap/pay_succeed" />
+
+    <TextView
+        android:id="@+id/textView_payStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/pay_succeed"
+        android:textColor="#000000"
+        android:textSize="@dimen/textsize_16" />
+
+    <TextView
+        android:id="@+id/textView_describe"
+        android:layout_width="202dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+        android:textColor="@color/COLOR_FFB4B4B4"
+        android:textSize="@dimen/textsize_14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_left"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="124dp"
+            android:layout_height="36dp"
+            android:background="@drawable/shape_blue_outline"
+            android:text="@string/back"
+            android:textColor="@color/COLOR_FF1E90FF"
+            android:textSize="@dimen/textsize_14" />
+
+       <!-- <Button
+            android:id="@+id/button_checkOrder"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="124dp"
+            android:layout_height="36dp"
+            android:background="@drawable/selector_bg_blue_btn"
+            android:text="@string/check_order"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_14" />-->
+    </LinearLayout>
+
+</LinearLayout>

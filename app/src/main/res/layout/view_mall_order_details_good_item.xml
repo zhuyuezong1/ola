@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:id="@+id/ll_product"
+    android:padding="@dimen/dp_12">
+
+    <ImageView
+        android:id="@+id/iv_good_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:id="@+id/tv_good_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/COLOR_FF333333"
+                android:textSize="@dimen/textsize_14"
+                android:textStyle="bold"
+                tools:text="七公主果园 漳州六鳌中华红蜜薯 5斤家庭装 2500g" />
+
+            <!--<TextView
+                android:id="@+id/tv_product_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:text=""
+                android:textColor="@color/COLOR_FF999999"
+                android:textSize="@dimen/textsize_13" />-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_good_sku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/COLOR_FF999999"
+            android:textSize="12sp"
+            tools:text="数量：1    颜色：红色    型号：XXL" />
+        <TextView
+            android:id="@+id/tv_back_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/back_value"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textsize_12"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                android:id="@+id/tv_good_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="￥39.99" />
+            <TextView
+                android:id="@+id/tv_special_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/COLOR_FF999999"
+                android:textSize="12sp"
+                android:visibility="gone"
+                tools:text="￥39.99" />
+            <TextView
+                android:id="@+id/tv_product_num"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/COLOR_FF999999"
+                android:text="@string/product_num"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

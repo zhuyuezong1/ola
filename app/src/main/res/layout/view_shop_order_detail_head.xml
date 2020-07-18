@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="38dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp">
+
+    <TextView
+        android:id="@+id/textView_filter"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:drawableRight="@mipmap/arrow_down"
+        android:drawablePadding="9dp"
+        android:gravity="center_vertical"
+        android:text="@string/filter"
+        android:textColor="@color/COLOR_FF1A1A1A"
+        android:textSize="@dimen/textsize_14" />
+
+    <TextView
+        android:id="@+id/tv_amount"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/business_order_total"
+        android:gravity="right"
+        android:textColor="@color/COLOR_FF1A1A1A"
+        android:textSize="@dimen/textsize_14"
+        />
+</LinearLayout>

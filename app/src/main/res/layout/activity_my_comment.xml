@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:PagerSlidingTabStrip="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include
+        layout="@layout/view_actionbar"
+        />
+    <com.kasa.ola.widget.slidingtab.PagerSlidingTabStrip
+        android:id="@+id/comment_tab"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/white"
+        PagerSlidingTabStrip:pstsDividerPadding="0dp"
+        PagerSlidingTabStrip:pstsIndicatorColor="@color/COLOR_FF1E90FF"
+        PagerSlidingTabStrip:pstsIndicatorHeight="2dp"
+        PagerSlidingTabStrip:pstsIndicatorWidth="70dp"
+        PagerSlidingTabStrip:pstsScrollOffset="0dp"
+        PagerSlidingTabStrip:pstsShouldExpand="true"
+        PagerSlidingTabStrip:pstsTabBackground="@drawable/bg_tab"
+        PagerSlidingTabStrip:pstsTabPaddingLeftRight="0dp"
+        PagerSlidingTabStrip:pstsTextAllCaps="false"
+        PagerSlidingTabStrip:pstsCheckColor="@color/COLOR_FF1E90FF"
+        PagerSlidingTabStrip:pstsUnCheckColor="@color/black"
+        PagerSlidingTabStrip:pstsUnderlineColor="#cccccc"
+        PagerSlidingTabStrip:pstsUnderlineHeight="1px"/>
+
+    <com.kasa.ola.widget.CustomScrollViewPager
+        android:id="@+id/custom_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <com.kasa.ola.widget.LoadMoreRecyclerView
+             android:id="@+id/rv_my_comments"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+
+         <TextView
+             android:id="@+id/tv_no_data"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/COLOR_FF666666"
+             android:textSize="@dimen/textsize_15"
+             android:text="@string/no_comment"
+             android:layout_centerInParent="true"
+             android:drawableTop="@mipmap/nocomment"
+             android:visibility="gone"
+             />
+
+     </RelativeLayout>-->
+
+</LinearLayout>

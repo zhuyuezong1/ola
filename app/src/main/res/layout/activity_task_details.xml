@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_special"
+    android:orientation="vertical"
+    android:background="@color/bg_default_color"
+    >
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/sl_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+                <androidx.core.widget.NestedScrollView
+                    android:id="@+id/sv_task_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:overScrollMode="never"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        >
+
+                        <com.kasa.ola.widget.xbanner.XBanner
+                            android:id="@+id/task_banner"
+                            android:layout_width="match_parent"
+                            android:layout_height="260dp"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@color/white"
+                            android:paddingLeft="@dimen/dp_16"
+                            android:paddingRight="@dimen/dp_16"
+                            android:paddingTop="@dimen/dp_12"
+                            android:paddingBottom="@dimen/dp_12"
+                            >
+
+                            <TextView
+                                android:id="@+id/tv_task_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/COLOR_FF333333"
+                                android:textSize="@dimen/textsize_20"
+                                android:textStyle="bold"
+                                android:text="空调维修（测试）"
+                                />
+                            <TextView
+                                android:id="@+id/tv_task_desc"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize_14"
+                                android:textColor="@color/COLOR_FF999999"
+                                android:layout_marginTop="@dimen/dp_4"
+                                android:layout_marginBottom="@dimen/dp_4"
+                                android:text="(测试)1.接待顾客的咨询，了解顾客的需求并达成销售；\n 2.负责做好货品销售记录、盘点、账目核对等工作，按规定完成各项销售统计工作。"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize_14"
+                                android:textColor="@color/COLOR_FF999999"
+                                android:layout_marginTop="@dimen/dp_4"
+                                android:layout_marginBottom="@dimen/dp_4"
+                                android:text="(测试)1.接待顾客的咨询，了解顾客的需求并达成销售；\n 2.负责做好货品销售记录、盘点、账目核对等工作，按规定完成各项销售统计工作。"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize_14"
+                                android:textColor="@color/COLOR_FF999999"
+                                android:layout_marginTop="@dimen/dp_4"
+                                android:layout_marginBottom="@dimen/dp_4"
+                                android:text="(测试)1.接待顾客的咨询，了解顾客的需求并达成销售；\n 2.负责做好货品销售记录、盘点、账目核对等工作，按规定完成各项销售统计工作。"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize_14"
+                                android:textColor="@color/COLOR_FF999999"
+                                android:layout_marginTop="@dimen/dp_4"
+                                android:layout_marginBottom="@dimen/dp_4"
+                                android:text="(测试)1.接待顾客的咨询，了解顾客的需求并达成销售；\n 2.负责做好货品销售记录、盘点、账目核对等工作，按规定完成各项销售统计工作。"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize_14"
+                                android:textColor="@color/COLOR_FF999999"
+                                android:layout_marginTop="@dimen/dp_4"
+                                android:layout_marginBottom="@dimen/dp_4"
+                                android:text="(测试)1.接待顾客的咨询，了解顾客的需求并达成销售；\n 2.负责做好货品销售记录、盘点、账目核对等工作，按规定完成各项销售统计工作。"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/textsize_14"
+                                android:textColor="@color/COLOR_FF999999"
+                                android:layout_marginTop="@dimen/dp_4"
+                                android:layout_marginBottom="@dimen/dp_4"
+                                android:text="(测试)1.接待顾客的咨询，了解顾客的需求并达成销售；\n 2.负责做好货品销售记录、盘点、账目核对等工作，按规定完成各项销售统计工作。"
+                                />
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/commission_title"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:layout_gravity="center_vertical"
+                                    />
+                                <TextView
+                                    android:id="@+id/tv_back_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/commission_value"
+                                    android:textColor="@color/red"
+                                    android:textSize="@dimen/textsize_24"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center_vertical"
+                                    />
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tv_notice_tips"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/COLOR_FFFFF0F0"
+                            android:text="@string/task_accept_notice"
+                            android:textColor="@color/red"
+                            android:drawableLeft="@mipmap/icon_find_notice"
+                            android:paddingLeft="@dimen/dp_12"
+                            android:drawablePadding="@dimen/dp_12"
+                            android:paddingTop="@dimen/dp_8"
+                            android:paddingBottom="@dimen/dp_8"
+                            android:textSize="@dimen/textsize_12"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:background="@color/white"
+                            android:paddingLeft="@dimen/dp_16"
+                            android:paddingRight="@dimen/dp_16"
+
+                            >
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="@dimen/dp_12"
+                                android:paddingBottom="@dimen/dp_12"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:text="@string/contact"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv_contact"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:text="吴先生（测试）"
+                                    />
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/bg_default_color"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="@dimen/dp_12"
+                                android:paddingBottom="@dimen/dp_12"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:text="@string/connect_phone_number_title"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv_contact_mobile"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:text="12345678912（测试）"
+                                    />
+                                <LinearLayout
+                                    android:id="@+id/ll_phone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <View
+                                        android:layout_width="1dp"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/bg_default_color"
+                                        />
+                                    <ImageView
+                                        android:id="@+id/iv_phone"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/icon_black_phone"
+                                        android:layout_marginLeft="@dimen/dp_16"
+                                        />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/bg_default_color"
+                                />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="@dimen/dp_12"
+                                android:paddingBottom="@dimen/dp_12"
+                                >
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:text="@string/detail_address"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/tv_detail_address"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="wrap_content"
+                                    android:textSize="@dimen/textsize_14"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:text="大桥路1号吴悦广场3楼（测试）"
+                                    />
+                                <LinearLayout
+                                    android:id="@+id/ll_nav"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <View
+                                        android:layout_width="1dp"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/bg_default_color"
+                                        />
+                                    <ImageView
+                                        android:id="@+id/iv_nav"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:src="@mipmap/icon_nav"
+                                        android:layout_marginLeft="@dimen/dp_16"
+                                        />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+                <Button
+                    android:id="@+id/btn_commit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_12"
+                    android:background="@drawable/shape_blue_corner_22"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/task_accept_order"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:paddingTop="@dimen/dp_11"
+                    android:paddingBottom="@dimen/dp_11"
+                    android:textSize="@dimen/textsize_16" />
+            </LinearLayout>
+
+
+            <include layout="@layout/view_actionbar" />
+
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

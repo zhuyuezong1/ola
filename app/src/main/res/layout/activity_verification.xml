@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default_color"
+    >
+
+    <include
+        layout="@layout/view_actionbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_16"
+        >
+
+        <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+            <TextView
+                style="@style/fragment_shop_apply_item_left"
+                android:text="@string/customer_info" />
+
+            <TextView
+                android:id="@+id/tv_customer_info"
+                style="@style/fragment_shop_apply_item_right"
+                android:textColor="@color/COLOR_FF333333"
+                 />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_default_color" />
+        <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+            <TextView
+                style="@style/fragment_shop_apply_item_left"
+                android:text="@string/product_name" />
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                style="@style/fragment_shop_apply_item_right"
+                android:textColor="@color/COLOR_FF333333"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_default_color" />
+        <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+            <TextView
+                style="@style/fragment_shop_apply_item_left"
+                android:text="@string/sale_value" />
+
+            <TextView
+                android:id="@+id/tv_sale_value"
+                style="@style/fragment_shop_apply_item_right"
+                android:textColor="@color/COLOR_FF333333"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_default_color" />
+        <LinearLayout style="@style/fragment_shop_apply_item_ll"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/fragment_shop_apply_item_left"
+                android:text="@string/number" />
+
+            <TextView
+                android:id="@+id/tv_number"
+                style="@style/fragment_shop_apply_item_right"
+                android:textColor="@color/COLOR_FF333333"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_default_color"
+            android:visibility="gone"/>
+        <LinearLayout style="@style/fragment_shop_apply_item_ll"
+            android:visibility="gone"
+            >
+
+            <TextView
+                style="@style/fragment_shop_apply_item_left"
+                android:text="@string/effective_time" />
+
+            <TextView
+                android:id="@+id/tv_effective_time"
+                style="@style/fragment_shop_apply_item_right"
+                android:textColor="@color/COLOR_FF333333"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_commit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@drawable/shape_blue_corner_22"
+        android:text="@string/verification_right_now"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/dp_11"
+        android:paddingBottom="@dimen/dp_11"
+        android:textSize="@dimen/textsize_16" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default_color"
+    >
+    <include
+        layout="@layout/view_actionbar"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@mipmap/bg_auth_head"
+        android:layout_margin="@dimen/dp_12"
+        android:orientation="vertical"
+        >
+        <com.kasa.ola.widget.RoundImageView
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:src="@mipmap/auth_head_image"
+            android:layout_margin="@dimen/dp_16"
+            />
+        <TextView
+            android:id="@+id/tv_auth_head_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/please_auth_tips"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16"
+            android:layout_marginLeft="@dimen/dp_16"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auth_tips"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_12"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_4"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_personal_info"
+        style="@style/auth_item_bg"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:text="@string/personal_info"
+                style="@style/auth_item_left_1"
+                />
+            <TextView
+                android:text="@string/perfect_info"
+                style="@style/auth_item_left_2"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_go_personal_info"
+            android:text="@string/wait_for_perfect"
+            style="@style/auth_item_right"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_bank_info"
+        style="@style/auth_item_bg"
+        android:layout_marginTop="@dimen/dp_8"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:text="@string/bank_card_info"
+                style="@style/auth_item_left_1"
+                />
+            <TextView
+                android:text="@string/add_card"
+                style="@style/auth_item_left_2"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_go_bank_card_info"
+            android:text="@string/wait_for_perfect"
+            style="@style/auth_item_right"
+            />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default_color"
+    >
+
+    <include
+        layout="@layout/view_actionbar"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_add_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_11"
+            android:paddingBottom="@dimen/dp_11"
+            android:text="@string/add_product"
+            android:gravity="center"
+            android:textColor="@color/COLOR_FF1677FF"
+            android:textSize="@dimen/textsize_16"
+            android:background="@drawable/shape_blue_bond_grey_bg"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:text="@string/product_manager"
+            android:textSize="@dimen/textsize_16"
+            android:textColor="@color/COLOR_FF333333"
+            />
+
+        <RadioGroup
+            android:id="@+id/rg_store_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_12"
+            >
+
+            <RadioButton
+                android:id="@+id/rb_all_product"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/all_products"
+                android:button="@null"
+                android:background="@drawable/selector_filter"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@drawable/selector_filter_text"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingBottom="@dimen/dp_6"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/rb_checking_product"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:text="@string/checking"
+                android:button="@null"
+                android:background="@drawable/selector_filter"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@drawable/selector_filter_text"
+                android:gravity="center"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingBottom="@dimen/dp_6"
+                />
+            <RadioButton
+                android:id="@+id/rb_checked_product"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:text="@string/upper_shelf"
+                android:button="@null"
+                android:background="@drawable/selector_filter"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@drawable/selector_filter_text"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingBottom="@dimen/dp_6"
+                />
+            <RadioButton
+                android:id="@+id/rb_undercarriage_product"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:text="@string/undercarriage"
+                android:button="@null"
+                android:background="@drawable/selector_filter"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@drawable/selector_filter_text"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingBottom="@dimen/dp_6"
+                />
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

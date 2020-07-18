@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/COLOR_FFF2F2F2">
+
+
+    <include
+        layout="@layout/view_actionbar"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionbar"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nsv_product"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:descendantFocusability="blocksDescendants"
+            android:fillViewport="true"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="vertical">
+
+                <com.kasa.ola.widget.xbanner.XBanner
+                    android:id="@+id/good_info_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    >
+
+                    <TextView
+                        android:id="@+id/tv_product_title"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/black"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="17sp"
+                        android:text=""
+                        />
+                    <TextView
+                        android:id="@+id/tv_sale_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hot_sale_number"
+                        android:paddingRight="16dp"
+                        android:textColor="@color/COLOR_FF979797"
+                        android:layout_gravity="center_vertical"
+                        android:textSize="@dimen/textsize_10"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_good_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="10dp"
+                    android:text=""
+                    android:textColor="@color/COLOR_FF333333"
+                    android:textSize="13sp" />
+
+
+                <TextView
+                    android:id="@+id/tv_good_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text=""
+                    android:textColor="@color/COLOR_FFE44242"
+                    android:layout_alignParentRight="true"
+                    android:gravity="left"
+                    android:background="@color/white"
+                    android:textSize="17sp" />
+                <TextView
+                    android:id="@+id/tv_good_original_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text=""
+                    android:textColor="@color/COLOR_FF666666"
+                    android:layout_alignParentRight="true"
+                    android:gravity="left"
+                    android:background="@color/white"
+                    android:textSize="@dimen/textsize_14" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/supplier"
+                        android:textColor="@color/COLOR_FF888888"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/tv_supplier"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="end|center_vertical"
+                        android:maxLines="1"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/view_sku"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                    <TextView
+                        android:id="@+id/tv_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/car_one_key_start_select"
+                        android:textColor="@color/COLOR_FF888888"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_sku"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="end|center_vertical"
+                        android:maxLines="1"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="13sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/go_grey" />
+
+                </LinearLayout>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/product_info_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:tabBackground="@color/white"
+                    app:tabIndicatorColor="@color/COLOR_FF1E90FF"
+                    app:tabIndicatorHeight="@dimen/dp_2"
+                    app:tabMode="fixed"
+                    app:tabSelectedTextColor="@color/COLOR_FF1A1A1A"
+                    app:tabIndicatorFullWidth="false"
+                    app:tabTextAppearance="@style/TabLayoutTextStyle_big"
+                    app:tabTextColor="@color/COLOR_FF666666"></com.google.android.material.tabs.TabLayout>
+                <com.kasa.ola.widget.jsbridge.BridgeWebView
+                    android:id="@+id/good_info_webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:visibility="gone"
+                    android:layout_marginTop="6dp" />
+                <com.kasa.ola.widget.LoadMoreRecyclerView
+                    android:id="@+id/rv_comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    ></com.kasa.ola.widget.LoadMoreRecyclerView>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/COLOR_FFF1F1F1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+           <!-- <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/click_share_icon"
+                android:gravity="center"
+                android:text="@string/share"
+                android:textColor="@color/black"
+                android:textSize="13sp" />-->
+
+            <TextView
+                android:id="@+id/tv_custom_service"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@mipmap/click_customservice"
+                android:gravity="center"
+                android:text="@string/customer_service"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_add_cart"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="35dp"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:background="@drawable/bg_btn_blue_bond"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="@string/add_cart"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_buy_now"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="35dp"
+                android:paddingLeft="@dimen/dp_10"
+                android:paddingRight="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:gravity="center"
+                android:background="@color/COLOR_FF07A9DE"
+                android:textColor="@color/white"
+                android:text="@string/buy"
+                 />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.kasa.ola.widget.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionbar" />
+
+</RelativeLayout>

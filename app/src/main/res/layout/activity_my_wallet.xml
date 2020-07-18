@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/sl_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/sv_my_wallet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="@dimen/dp_12"
+                            android:background="@drawable/bg_wallet_head_blue_corner">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="@string/commission"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/textsize_14" />
+
+                                <TextView
+                                    android:id="@+id/tv_commission_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="@string/price"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/textsize_20" />
+
+                                <Button
+                                    android:id="@+id/btn_exchange"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="@dimen/dp_8"
+                                    android:background="@drawable/shape_withdraw_btn"
+                                    android:minWidth="0dp"
+                                    android:minHeight="0dp"
+                                    android:paddingLeft="@dimen/dp_12"
+                                    android:paddingTop="@dimen/dp_2"
+                                    android:paddingRight="@dimen/dp_12"
+                                    android:paddingBottom="@dimen/dp_2"
+                                    android:text="@string/exchange"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:textSize="@dimen/textsize_12" />
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="0.5dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="@dimen/dp_30"
+                                android:layout_marginBottom="@dimen/dp_30"
+                                android:background="@color/COLOR_FFE9E9E9" />
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="@string/vacancies"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/textsize_14" />
+
+                                <TextView
+                                    android:id="@+id/tv_vacancies_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:text="@string/price"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/textsize_20" />
+
+                                <Button
+                                    android:id="@+id/btn_withdraw"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="@dimen/dp_8"
+                                    android:background="@drawable/shape_withdraw_btn"
+                                    android:minWidth="0dp"
+                                    android:minHeight="0dp"
+                                    android:paddingLeft="@dimen/dp_12"
+                                    android:paddingTop="@dimen/dp_2"
+                                    android:paddingRight="@dimen/dp_12"
+                                    android:paddingBottom="@dimen/dp_2"
+                                    android:text="@string/withdraw"
+                                    android:textColor="@color/COLOR_FF333333"
+                                    android:textSize="@dimen/textsize_12" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <include layout="@layout/view_details_filter" />
+
+                        <com.kasa.ola.widget.LoadMoreRecyclerView
+                            android:id="@+id/rv_details"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </com.kasa.ola.widget.LoadMoreRecyclerView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <!--  <include
+                      layout="@layout/view_details_filter"
+                      android:visibility="gone" />-->
+
+
+            </androidx.core.widget.NestedScrollView>
+
+            <LinearLayout
+                android:id="@+id/ll_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:layout_marginRight="@dimen/dp_12"
+                android:background="@drawable/shape_top_corner_white"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:text="@string/account_detail"
+                    android:textColor="@color/COLOR_FF333333"
+                    android:textSize="@dimen/textsize_16"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_filter_root"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/COLOR_FFF8F8F8"
+                    android:paddingLeft="@dimen/dp_12"
+                    android:paddingRight="@dimen/dp_12">
+
+                    <RadioGroup
+                        android:id="@+id/rg_filter_root"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_9"
+                        android:layout_marginBottom="@dimen/dp_9"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rb_commission_root"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/selector_filter"
+                            android:button="@null"
+                            android:checked="true"
+                            android:paddingLeft="@dimen/dp_16"
+                            android:paddingTop="@dimen/dp_6"
+                            android:paddingRight="@dimen/dp_16"
+                            android:paddingBottom="@dimen/dp_6"
+                            android:text="@string/commission_details"
+                            android:textColor="@drawable/selector_filter_text"
+                            android:textSize="@dimen/textsize_14" />
+
+                        <RadioButton
+                            android:id="@+id/rb_valance_root"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/dp_12"
+                            android:background="@drawable/selector_filter"
+                            android:button="@null"
+                            android:paddingLeft="@dimen/dp_16"
+                            android:paddingTop="@dimen/dp_6"
+                            android:paddingRight="@dimen/dp_16"
+                            android:paddingBottom="@dimen/dp_6"
+                            android:text="@string/vacancies_record"
+                            android:textColor="@drawable/selector_filter_text"
+                            android:textSize="@dimen/textsize_14" />
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/tv_filter_root"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:drawableRight="@mipmap/arrow_down"
+                        android:drawablePadding="@dimen/dp_4"
+                        android:gravity="center_vertical"
+                        android:text="@string/filter"
+                        android:textColor="@color/COLOR_FF333333"
+                        android:textSize="@dimen/textsize_14" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/bg_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/COLOR_80040404"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

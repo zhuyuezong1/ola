@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_actionbar_frag"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_back_frag"
+            android:layout_width="31dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="4dp"
+            android:src="@mipmap/return_icon"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/tv_title_frag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@color/textColor_actionBar_title_frag"
+            android:textSize="16sp"
+            android:lines="1"
+            android:layout_marginLeft="31dp"
+            android:layout_marginRight="31dp"
+            tools:text="标题"  />
+
+        <TextView
+            android:id="@+id/tv_right_text_frag"
+            android:layout_width="31dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/textColor_actionBar_right"
+            android:textSize="@dimen/textsize_15"
+            tools:text="帮助" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/webProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

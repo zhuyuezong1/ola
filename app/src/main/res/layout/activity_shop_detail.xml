@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="blocksDescendants"
+                android:background="@color/white"
+                android:orientation="vertical">
+                <com.kasa.ola.widget.xbanner.XBanner
+                    android:id="@+id/shop_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    />
+               <!-- <ImageView
+                    android:id="@+id/shop_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:src="@mipmap/shop_detail_banner_default"
+                    />-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_10"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_shop_logo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:scaleType="centerCrop"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/dp_5"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_shop_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/textsize_17"
+                            android:text=""
+                            android:textColor="@color/COLOR_FF1A1A1A"
+                            />
+                        <TextView
+                            android:id="@+id/tv_phone_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/COLOR_FF1E90FF"
+                            android:text=""
+                            android:textSize="@dimen/textsize_15"
+                            android:layout_marginTop="@dimen/dp_2"
+                            android:gravity="center_vertical"
+                            android:drawableLeft="@mipmap/mobilephone"
+                            android:drawablePadding="@dimen/dp_5"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_2"
+                            >
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/location_icon"
+                                android:layout_marginTop="@dimen/dp_5"
+                                android:layout_marginRight="@dimen/dp_5"
+                                />
+                            <TextView
+                                android:id="@+id/tv_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/COLOR_FF555555"
+                                android:text="水电费水电费水电费"
+                                android:textSize="@dimen/textsize_15"
+                                android:gravity="center_vertical"
+                                android:drawablePadding="@dimen/dp_5"
+                                />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/shop_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    app:tabBackground="@color/white"
+                    app:tabIndicatorColor="@color/COLOR_FF1E90FF"
+                    app:tabIndicatorHeight="@dimen/dp_2"
+                    app:tabMode="fixed"
+                    app:tabSelectedTextColor="@color/COLOR_FF1A1A1A"
+                    app:tabIndicatorFullWidth="false"
+                    app:tabTextAppearance="@style/TabLayoutTextStyle_big"
+                    app:tabTextColor="@color/COLOR_FF666666"></com.google.android.material.tabs.TabLayout>
+
+                <com.kasa.ola.widget.jsbridge.BridgeWebView
+                    android:id="@+id/webview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.kasa.ola.widget.jsbridge.BridgeWebView>
+                <com.kasa.ola.widget.LoadMoreRecyclerView
+                    android:id="@+id/rv_products"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:background="@color/white"
+                    >
+
+                </com.kasa.ola.widget.LoadMoreRecyclerView>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:visibility="gone"
+            android:background="@color/COLOR_FFF1F1F1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_order_or_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_10"
+                android:background="@drawable/bg_rectangle_blue_corner_1"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_15"
+                android:paddingRight="@dimen/dp_15"
+                android:text="@string/buy_year_card"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_15" />
+        </LinearLayout>-->
+    </LinearLayout>
+</LinearLayout>

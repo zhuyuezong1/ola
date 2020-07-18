@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_first"
+    style="@style/MatchMatch">
+    <cn.bingoogolapple.bgabanner.BGAGuideLinkageLayout
+        style="@style/MatchMatch">
+
+        <cn.bingoogolapple.bgabanner.BGABanner
+            android:id="@+id/banner_guide_background"
+            style="@style/MatchMatch"
+            app:banner_pageChangeDuration="1000"
+            app:banner_pointAutoPlayAble="false"
+            app:banner_pointContainerBackground="@android:color/transparent"
+            app:banner_pointDrawable="@drawable/selector_splash_point"
+            app:banner_pointTopBottomMargin="15dp"
+            app:banner_transitionEffect="fade"/>
+    </cn.bingoogolapple.bgabanner.BGAGuideLinkageLayout>
+    <TextView
+        android:id="@+id/tv_guide_skip"
+        style="@style/WrapWrap"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:padding="4dp"
+        android:background="@drawable/bg_toast"
+        android:text="跳过 >"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/btn_guide_enter"
+        style="@style/WrapWrap"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/shape_login_corner"
+        android:paddingLeft="@dimen/dp_30"
+        android:paddingRight="@dimen/dp_30"
+        android:text="开启共享之旅"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+</RelativeLayout>

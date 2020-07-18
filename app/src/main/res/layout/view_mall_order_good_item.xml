@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="5dp"
+    android:paddingRight="37dp"
+    android:paddingBottom="5dp">
+
+    <ImageView
+        android:id="@+id/iv_good_img"
+        android:layout_width="78dp"
+        android:layout_height="78dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5">
+
+            <TextView
+                android:id="@+id/tv_good_desc"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/COLOR_FF333333"
+                android:textSize="@dimen/textsize_14"
+                tools:text="七公主果园 漳州六鳌中华红蜜薯 5斤家庭装 2500g" />
+
+            <!--<TextView
+                android:id="@+id/tv_product_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_4"
+                android:text=""
+                android:textColor="@color/COLOR_FF999999"
+                android:textSize="@dimen/textsize_13" />-->
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_good_sku"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:maxLines="1"
+            android:textColor="@color/COLOR_FF999999"
+            android:textSize="12sp"
+            tools:text="数量：1    颜色：红色    型号：XXL" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                android:id="@+id/tv_good_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="￥39.99" />
+            <TextView
+                android:id="@+id/tv_special_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:maxLines="1"
+                android:textColor="@color/COLOR_FF999999"
+                android:textSize="12sp"
+                tools:text="￥39.99" />
+            <TextView
+                android:id="@+id/tv_product_num"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="right"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@color/COLOR_FF999999"
+                android:text="x1"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

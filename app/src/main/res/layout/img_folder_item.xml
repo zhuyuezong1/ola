@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/cover_img"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/face_s_270"/>
+
+    <TextView
+        android:id="@+id/folder_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/cover_img"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="16dp"
+        android:includeFontPadding="false"
+        android:textSize="13dp"
+        tools:text="所有图片"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/folder_count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/folder_name_text"
+        android:layout_alignParentBottom="true"
+        android:includeFontPadding="false"
+        android:layout_marginBottom="16dp"
+        android:textSize="10dp"
+        android:textColor="#999999"
+        tools:text="164张"/>
+
+    <ImageView
+        android:id="@+id/select_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@mipmap/imageselect_default_check" />
+
+</RelativeLayout>

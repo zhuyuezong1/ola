@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_FFF2F2F2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <TextView
+        android:id="@+id/textView_notice"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="13dp"
+        android:textColor="@color/COLOR_FFEA4140"
+        android:textSize="@dimen/textsize_12" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp">
+
+        <include
+            android:id="@+id/include_name"
+            layout="@layout/sub_certification_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View style="@style/details_line" />
+
+        <include
+            android:id="@+id/include_idNum"
+            layout="@layout/sub_certification_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:paddingRight="13dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/uploading_photo"
+            android:textColor="@color/COLOR_FF1A1A1A"
+            android:textSize="@dimen/textsize_13" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp">
+
+            <FrameLayout
+                android:id="@+id/view_front"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1">
+
+                <include
+                    android:id="@+id/include_photoFront"
+                    layout="@layout/sub_certification_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/iv_photo_front"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:scaleType="centerCrop"/>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/view_back"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1">
+
+                <include
+                    android:id="@+id/include_photoBack"
+                    layout="@layout/sub_certification_photo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:id="@+id/iv_photo_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:scaleType="centerCrop"/>
+
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_save"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/selector_bg_blue_btn"
+        android:onClick="onSave"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_16" />
+</LinearLayout>

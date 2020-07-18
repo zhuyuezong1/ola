@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_10"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="@dimen/dp_10"
+    app:cardElevation="@dimen/dp_3"
+    android:paddingTop="@dimen/dp_10"
+    android:background="@color/COLOR_FFF6F6F6"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/item_recommend_product_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/COLOR_FFF6F6F6"
+        android:paddingBottom="@dimen/dp_10"
+        >
+
+        <ImageView
+            android:id="@+id/iv_recommend_product"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingRight="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_4"
+            >
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/textsize_14"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:text=""
+                />
+            <TextView
+                android:id="@+id/tv_sale_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sale_number"
+                android:textColor="@color/COLOR_FF979797"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/textsize_10"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingRight="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_2"
+            android:textColor="@color/COLOR_FF979797"
+            android:textSize="@dimen/textsize_12"
+            android:ellipsize="end"
+            android:lines="2"
+            android:maxLines="2"
+            android:layout_centerVertical="true"
+            android:text=""
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dp_5"
+            android:paddingLeft="@dimen/dp_5"
+            android:paddingRight="@dimen/dp_5">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/red"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textsize_16"
+                    android:text=""
+                    />
+
+                <TextView
+                    android:id="@+id/tv_original_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_centerVertical="true"
+                    android:text="￥39.90"
+                    android:textColor="@color/COLOR_FF666666"
+                    android:textSize="@dimen/textsize_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/yv_buy_now"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/buy"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textsize_11"
+                    android:layout_gravity="right"
+                    android:background="@drawable/bg_rectangle_red_corner"
+                    android:paddingLeft="@dimen/dp_5"
+                    android:paddingRight="@dimen/dp_5"
+                    android:paddingTop="@dimen/dp_2"
+                    android:paddingBottom="@dimen/dp_2"
+                    />
+                <TextView
+                    android:id="@+id/tv_back_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="@dimen/dp_2"
+                    android:textSize="@dimen/textsize_10"
+                    android:text="预计可返xx元"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

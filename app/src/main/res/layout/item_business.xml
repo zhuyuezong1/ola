@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_12"
+    android:layout_marginTop="@dimen/dp_8"
+    android:layout_marginRight="@dimen/dp_12"
+    android:id="@+id/ll_item"
+    android:background="@drawable/bg_rectangle_white_cornor_8"
+    android:padding="@dimen/dp_8">
+
+    <ImageView
+        android:id="@+id/iv_shop_logo"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text=""
+            android:textColor="@color/COLOR_FF333333"
+            android:textSize="@dimen/textsize_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_shop_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_4"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text=""
+            android:textColor="@color/COLOR_FF999999"
+            android:textSize="@dimen/textsize_13" />
+        <!--<TextView
+            android:id="@+id/tv_shop_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="台州市黄岩区西江华庭"
+            android:textColor="@color/COLOR_FF666666"
+            android:textSize="@dimen/textsize_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:gravity="left|center_vertical"
+            android:paddingTop="@dimen/dp_2"
+            android:paddingBottom="@dimen/dp_2"
+            android:drawableLeft="@mipmap/location_icon"
+            />-->
+
+        <TextView
+            android:id="@+id/tv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableLeft="@mipmap/location_icon"
+            android:drawablePadding="@dimen/dp_2"
+            android:gravity="left|center_vertical"
+            android:text=""
+            android:textColor="@color/COLOR_FF666666"
+            android:textSize="@dimen/textsize_12" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

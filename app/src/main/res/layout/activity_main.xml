@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/vp_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--<com.kasa.ola.widget.TabLayoutView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/ll_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bottom_home"
+                    android:drawableTop="@drawable/nav_home_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_shop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_shop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bottom_shop"
+                    android:drawableTop="@drawable/nav_mall_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+            </LinearLayout>
+
+          <!--  <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                >
+                <ImageView
+                    android:id="@+id/iv_guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/map_round_icon" />
+
+            </RelativeLayout>-->
+            <LinearLayout
+                android:id="@+id/ll_shop_manager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_shop_manager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bottom_shop_manager"
+                    android:drawableTop="@drawable/nav_special_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_cart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_cart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bottom_cart"
+                    android:drawableTop="@drawable/nav_cart_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_mine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_mine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/personal_center"
+                    android:drawableTop="@drawable/nav_mine_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

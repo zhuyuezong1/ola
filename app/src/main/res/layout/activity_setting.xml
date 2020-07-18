@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <include
+            android:id="@+id/include_address_manage"
+            layout="@layout/sub_setting"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:showDividers="middle"
+        android:divider="@drawable/divider_cdcdcd2">
+
+        <include
+            android:id="@+id/include_mod_login_password"
+            layout="@layout/sub_setting"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <include
+            android:id="@+id/include_mod_pay_password"
+            layout="@layout/sub_setting"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <include
+            android:id="@+id/include_bank_card"
+            layout="@layout/sub_setting"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <include
+            android:id="@+id/include_about"
+            layout="@layout/sub_setting"
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+    </LinearLayout>
+
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_44"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="@dimen/dp_70"
+        android:background="@drawable/bg_default_blue_corner"
+        android:onClick="onExit"
+        android:text="@string/exit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_15" />
+</LinearLayout>
+

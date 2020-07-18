@@ -1,0 +1,170 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "com.kasa.ola"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "2.1.0703"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters "armeabi","armeabi-v7a","x86","mips"
+            /*abiFilters 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'*/
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : "com.kasa.ola",
+                JPUSH_APPKEY : "5c1f26442ea0264488945037", //JPush 上注册的包名对应的 Appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+
+                MTA_APPKEY:"Aqc1110480252",
+                //标注应用推广渠道用以区分新用户来源，可填写如应用宝，豌豆荚等
+                MTA_CHANNEL:"应用宝"
+        ]
+//        flavorDimensions "test"
+    }
+    signingConfigs {
+        release {
+            keyAlias 'kasa'
+            keyPassword 'kasa2019'
+            storeFile file('../ola.jks')
+            storePassword 'kasa2019'
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+        }
+        release {
+            //在这里添加：
+            lintOptions {
+                checkReleaseBuilds false
+                abortOnError false
+            }
+            debuggable false
+            jniDebuggable false
+            zipAlignEnabled true
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        pickFirst "lib/armeabi-v7a/libijkplayer.so"
+        pickFirst "lib/x86/libijkplayer.so"
+        pickFirst "lib/x86/libijksdl.so"
+        pickFirst "lib/x86/libijkffmpeg.so"
+        pickFirst "lib/armeabi/libijkplayer.so"
+        pickFirst "lib/armeabi/libijksdl.so"
+        pickFirst "lib/armeabi-v7a/libijksdl.so"
+        pickFirst "lib/armeabi/libijkffmpeg.so"
+        pickFirst "lib/armeabi-v7a/libijkffmpeg.so"
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    implementation "com.google.android.material:material:1.0.0"
+//    implementation 'com.qmuiteam:qmui:2.0.0-alpha08'
+
+    implementation 'io.reactivex:rxjava:1.0.14'
+    implementation 'io.reactivex:rxandroid:1.0.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+
+    implementation 'com.bugtags.metrics:bugtags-lib:latest.integration'
+    implementation 'com.google.code.gson:gson:2.7'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+
+    // 添加下面的内容
+    implementation(name: 'alipaySdk-15.6.5-20190718211148', ext: 'aar')
+    implementation 'cn.bingoogolapple:bga-banner:2.2.6@aar'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    // 基础依赖包，必须要依赖
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+    // fragment快速实现（可选）
+    implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
+    implementation 'com.lcw.library:imagepicker:2.2.7'
+    implementation 'com.ycjiang:ImagePreview:2.2.3'
+    implementation 'com.github.lzyzsd:jsbridge:1.0.4'
+    implementation 'com.haibin:calendarview:3.6.4'
+    implementation project(':zxing-simplify')
+    implementation 'cn.jiguang.sdk:jpush:3.1.6'
+    // 此处以JPush 3.1.6 版本为例。
+    implementation 'cn.jiguang.sdk:jcore:1.2.5'
+    // 此处以JCore 1.2.5 版本为例。
+    api 'com.tencent.tbs.tbssdk:sdk:43903'
+
+    //BasePopup主体库
+    implementation 'com.github.razerdp:BasePopup:2.2.1'
+    //高德
+    implementation 'com.amap.api:location:4.9.0'
+    implementation 'com.amap.api:search:7.3.0'
+//    implementation 'com.amap.api:navi-3dmap:latest.integration'
+    implementation 'com.amap.api:map2d:6.0.0'
+
+    //1. 云OCR SDK
+    implementation(name: 'WbCloudNormal-v4.0.4-22f2b1b', ext: 'aar')
+    //2.云公共组件
+    implementation(name: 'WbCloudOcrSdk-pro-release-v2.3.43', ext: 'aar')
+
+    implementation (name:'GDTSDK.unionNormal.4.211.1081', ext:'aar')
+
+//mta 3.4.7 稳定版
+    implementation 'com.qq.mta:mta:3.4.7-Release'
+
+//mid jar包 必须添加
+    implementation 'com.tencent.mid:mid:4.06-Release'
+
+//    implementation 'com.github.xiaoyanger0825:NiceVieoPlayer:v2.2'
+//    implementation 'com.bigkoo:convenientbanner:2.1.5'
+
+
+    implementation 'com.shuyu:gsyVideoPlayer-java:7.1.3'
+//
+////是否需要ExoPlayer模式
+//    implementation 'com.shuyu:GSYVideoPlayer-exo2:7.1.2'
+//
+    implementation 'com.shuyu:gsyVideoPlayer-armv5:7.1.2'
+    implementation 'com.shuyu:gsyVideoPlayer-armv7a:7.1.2'
+    implementation 'com.shuyu:gsyVideoPlayer-arm64:7.1.2'
+    implementation 'com.shuyu:gsyVideoPlayer-x64:7.1.2'
+    implementation 'com.shuyu:gsyVideoPlayer-x86:7.1.2'
+////更多ijk的编码支持
+//    implementation 'com.shuyu:gsyVideoPlayer-ex_so:7.1.2'
+//    implementation 'com.shuyu:GSYVideoPlayer:7.1.3'
+    implementation 'com.youth.banner:banner:2.0.11'
+
+    implementation 'com.ypx.yimagepicker:androidx:3.1.4'
+
+}

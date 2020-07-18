@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/vp_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--<com.kasa.ola.widget.TabLayoutView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@color/white"
+        android:layout_gravity="bottom" />-->
+
+    <RadioGroup
+        android:id="@+id/bottom_radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_home"
+            style="@style/main_radio_style"
+            android:checked="true"
+            android:drawableTop="@drawable/main_radio_home"
+            android:text="@string/bottom_home"/>
+
+        <RadioButton
+            android:id="@+id/radio_shop"
+            style="@style/main_radio_style"
+            android:drawableTop="@drawable/main_radio_home"
+            android:text="@string/bottom_shop"/>
+        <RadioButton
+            android:id="@+id/radio_shop_manager"
+            style="@style/main_radio_style"
+            android:drawableTop="@drawable/main_radio_home"
+            android:text="@string/bottom_shop_manager"/>
+        <RadioButton
+            android:id="@+id/radio_cart"
+            style="@style/main_radio_style"
+            android:drawableTop="@drawable/main_radio_home"
+            android:text="@string/bottom_cart"/>
+        <RadioButton
+            android:id="@+id/radio_mine"
+            style="@style/main_radio_style"
+            android:drawableTop="@drawable/main_radio_home"
+            android:text="@string/bottom_mine"/>
+    </RadioGroup>
+    <!--<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/ll_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tv_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bottom_home"
+                    android:drawableTop="@drawable/nav_home_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_mall"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_mall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/shop_title"
+                    android:drawableTop="@drawable/nav_mall_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+            </LinearLayout>
+
+            &lt;!&ndash; 留白 &ndash;&gt;
+
+            &lt;!&ndash; <FrameLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1">
+
+
+             </FrameLayout>&ndash;&gt;
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                >
+                <ImageView
+                    android:id="@+id/iv_guide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/map_round_icon" />
+              &lt;!&ndash;  <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/bg_rectangle_white_corner_40"
+                    android:paddingTop="@dimen/dp_5"
+                    >
+                    <ImageView
+                        android:id="@+id/iv_guide"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        android:layout_centerHorizontal="true"
+                        android:src="@mipmap/guide_icon" />
+                </FrameLayout>&ndash;&gt;
+            </RelativeLayout>
+         &lt;!&ndash;   <ImageView
+                android:id="@+id/iv_guide"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight
+                android:layout_marginBottom="@dimen/dp_10"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom"
+                android:src="@mipmap/guide_icon" />&ndash;&gt;
+            <LinearLayout
+                android:id="@+id/ll_activity"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_activity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/special_title"
+                    android:drawableTop="@drawable/nav_special_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_mine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/dp_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_mine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/bottom_mine"
+                    android:drawableTop="@drawable/nav_mine_selector"
+                    android:textColor="@drawable/bottom_bar_text_color_select"
+                    android:gravity="center"
+                    android:textSize="@dimen/textsize_13" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>-->
+
+</LinearLayout>

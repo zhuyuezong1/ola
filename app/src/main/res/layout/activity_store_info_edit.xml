@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/view_actionbar"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                >
+
+                <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+                    <TextView
+                        style="@style/fragment_shop_apply_item_left"
+                        android:text="@string/fragment_shop_organ_name" />
+
+                    <TextView
+                        android:id="@+id/tv_shop_organ_name"
+                        style="@style/fragment_shop_apply_item_no_edit_right"
+                        android:textColor="@color/COLOR_FF999999"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/COLOR_FFF2F2F2" />
+
+                <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+                    <TextView
+                        style="@style/fragment_shop_apply_item_left"
+                        android:text="@string/fragment_shop_organ_phone" />
+
+                    <EditText
+                        android:id="@+id/et_shop_organ_phone"
+                        style="@style/fragment_shop_apply_item_edit_right"
+                        android:inputType="number" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/COLOR_FFF2F2F2" />
+
+                <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+                    <TextView
+                        style="@style/fragment_shop_apply_item_left"
+                        android:text="@string/fragment_shop_organ_address" />
+
+                    <TextView
+                        android:id="@+id/tv_shop_organ_address"
+                        style="@style/fragment_shop_apply_item_no_edit_right"
+                        android:gravity="right"
+                        android:textColor="@color/COLOR_FF999999"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/COLOR_FFF2F2F2" />
+
+                <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+                    <TextView
+                        style="@style/fragment_shop_apply_item_left"
+                        android:text="@string/fragment_detail_address" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_address"
+                        style="@style/fragment_shop_apply_item_no_edit_right"
+                        android:textColor="@color/COLOR_FF999999"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/COLOR_FFF2F2F2" />
+
+                <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+                    <TextView
+                        style="@style/fragment_shop_apply_item_left"
+                        android:text="@string/business_hours" />
+
+                    <EditText
+                        android:id="@+id/et_business_hours"
+                        style="@style/fragment_shop_apply_item_edit_right"
+                        android:hint="@string/fragment_detail_address_hint"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/dp_12"
+                >
+
+                <TextView
+                    style="@style/fragment_shop_apply_item_left"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:layout_marginBottom="@dimen/dp_15"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:paddingRight="@dimen/dp_16"
+                    android:text="@string/upload_shop_images" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/COLOR_FFF2F2F2"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:paddingRight="@dimen/dp_16"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_12"
+                    android:layout_marginRight="@dimen/dp_12"
+                    android:layout_marginTop="@dimen/dp_8"
+                    android:layout_marginBottom="@dimen/dp_8"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16">
+
+                <LinearLayout style="@style/fragment_shop_apply_item_ll">
+
+                    <TextView
+                        android:id="@+id/tv_self_mention_point_title"
+                        style="@style/fragment_shop_apply_item_left"
+                        android:text="@string/fragment_is_self_mention_point"
+                        android:drawableRight="@mipmap/grey_question"
+                        android:drawablePadding="@dimen/dp_4"
+                        android:gravity="center_vertical"
+                        />
+
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <CheckBox
+                            android:id="@+id/btn_is_self"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:button="@drawable/selector_toggle_button"
+                            android:checked="false"
+                            android:scaleType="center" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_commit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_12"
+                android:background="@drawable/shape_blue_corner_22"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/dp_11"
+                android:paddingBottom="@dimen/dp_11"
+                android:textSize="@dimen/textsize_16" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

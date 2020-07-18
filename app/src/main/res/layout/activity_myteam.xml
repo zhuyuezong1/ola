@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:PagerSlidingTabStrip="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_FFF2F2F2"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <com.kasa.ola.widget.slidingtab.PagerSlidingTabStrip
+        android:id="@+id/pager_tab"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        PagerSlidingTabStrip:pstsCheckColor="#FF1E90FF"
+        PagerSlidingTabStrip:pstsDividerColor="#00000000"
+        PagerSlidingTabStrip:pstsDividerPadding="8dp"
+        PagerSlidingTabStrip:pstsIndicatorColor="#FF1E90FF"
+        PagerSlidingTabStrip:pstsIndicatorHeight="3dp"
+        PagerSlidingTabStrip:pstsIndicatorWidth="70dp"
+        PagerSlidingTabStrip:pstsScrollOffset="0dp"
+        PagerSlidingTabStrip:pstsShouldExpand="true"
+        PagerSlidingTabStrip:pstsTabBackground="@drawable/bg_tab"
+        PagerSlidingTabStrip:pstsTabPaddingLeftRight="0dp"
+        PagerSlidingTabStrip:pstsTextAllCaps="false"
+        PagerSlidingTabStrip:pstsUnCheckColor="#959595"
+        PagerSlidingTabStrip:pstsUnderlineColor="#cccccc"
+        PagerSlidingTabStrip:pstsUnderlineHeight="1px" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

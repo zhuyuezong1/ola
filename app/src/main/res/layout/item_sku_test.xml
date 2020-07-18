@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="13dp"
+    android:id="@+id/ll_sku"
+    android:showDividers="end"
+    android:background="@color/white"
+    android:divider="@drawable/divider_cdcdcd2">
+
+    <TextView
+        android:id="@+id/tv_sku_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:textSize="13dp"
+        android:textColor="@color/COLOR_FF666666"/>
+
+    <com.kasa.ola.widget.AutoLineLayout
+        android:id="@+id/sku_auto_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:row_height="34dp"
+        app:center_in_row="true"/>
+
+</LinearLayout>

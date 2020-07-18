@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="145dp"
+    android:background="@mipmap/quality_shop_head_bg"
+    android:paddingLeft="@dimen/dp_16"
+    android:paddingBottom="@dimen/dp_16"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quality_select_product"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_24"
+        android:layout_marginBottom="@dimen/dp_4"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quality_shop_tips"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_14"
+        />
+
+</LinearLayout>

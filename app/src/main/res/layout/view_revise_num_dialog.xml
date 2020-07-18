@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="226dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_rectangle_common_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="修改数量"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/black"
+        />
+
+   <!-- <com.kasa.ola.widget.AmountView
+        android:id="@+id/amount_view"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        app:tvTextSize="15sp"
+        app:btnTextSize="15sp"
+        app:btnWidth="30dp"
+        app:tvWidth="45dp"
+        />-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_reduce"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:includeFontPadding="false"
+            android:background="@color/COLOR_FFF2F2F2"
+            android:gravity="center"
+            android:text="-"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/COLOR_FF666666"/>
+
+        <EditText
+            android:id="@+id/et_num"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="1dp"
+            android:gravity="center"
+            android:background="@color/COLOR_FFF1F1F1"
+            android:text="5"
+            android:textSize="13dp"
+            android:textColor="@color/COLOR_FF666666"/>
+
+        <TextView
+            android:id="@+id/btn_add"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:includeFontPadding="false"
+            android:layout_marginLeft="1dp"
+            android:background="@color/COLOR_FFF2F2F2"
+            android:gravity="center"
+            android:text="+"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/COLOR_FF666666"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="20dp"
+        android:background="@color/COLOR_FFC8C8C8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:text="取消" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/COLOR_FFC8C8C8"/>
+
+        <TextView
+            android:id="@+id/btn_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:text="确认" />
+
+    </LinearLayout>
+
+</LinearLayout>

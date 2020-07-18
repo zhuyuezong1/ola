@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/weixing"
+        android:icon="@mipmap/weixing"
+        android:title="@string/wechat_share" />
+    <item
+        android:id="@+id/pengyouquan"
+        android:icon="@mipmap/pengyouquan"
+        android:title="@string/wechat_friend_circle_share" />
+</menu>

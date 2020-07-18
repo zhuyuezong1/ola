@@ -1,0 +1,1177 @@
+<resources>
+    <string name="app_name">喔啦共享商城</string>
+
+    <string name="wechat_request_fail">发送微信支付请求失败</string>
+    <string name="explore_confirm">请确认是否已经安装浏览器!</string>
+
+    <!--我的-->
+    <string name="mobile_number">手机号码：</string>
+    <string name="vacancies">余额</string>
+    <string name="commission">佣金</string>
+    <string name="commission_title">佣金：</string>
+    <string name="my_services">我的服务</string>
+    <string name="commission_details">佣金明细</string>
+    <string name="consume_details">消费明细</string>
+    <string name="vacancies_record">余额明细</string>
+    <string name="my_extension">我的好友</string>
+    <string name="invite_friend">邀请好友</string>
+    <string name="withdraw">提现</string>
+
+
+
+    <!--首页-->
+    <string name="mall_classify">商城分类</string>
+    <string name="hot_information">热门资讯</string>
+    <string name="live_service">生活服务</string>
+    <string name="everyday_task">每日签到</string>
+    <string name="hot_products">热门商品</string>
+    <string name="everyday_new_products">每日上新</string>
+    <string name="must_buy_quality_goods">必买好货</string>
+    <string name="surprise_brand">惊喜品牌</string>
+    <string name="vip_area">VIP专区</string>
+    <string name="select_quality_goods">精选好物</string>
+    <string name="promote_sales">促销活动</string>
+    <string name="today_special_sale">今日特卖</string>
+    <string name="more">更多</string>
+    <string name="input_search_product_tip">请输入要搜索的商品</string>
+    <string name="input_search_store_address_tip">请输入商家地址</string>
+    <string name="input_self_mention_tip">请输入要搜索的自提点</string>
+    <string name="input_search_shop_tip">请输入要搜索的商家</string>
+    <string name="search">搜索</string>
+    <string name="no_search_result_tip">没有相关商品哦~</string>
+    <string name="search_content_no_empty">搜索内容不能为空！</string>
+    <string name="have_no_message">没有消息</string>
+
+
+    <string name="choose_write">(选填)</string>
+    <string name="new_user_register">新用户注册</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="login">登\t\t\t\t录</string>
+    <string name="login_title">登录</string>
+    <string name="edittext_username">请输入用户名</string>
+    <string name="edittext_login_password">请输入密码</string>
+    <string name="write_username_warning">请输入正确的用户名</string>
+    <string name="input_pwd_warning">请输入登录密码</string>
+
+    <!--商品详情-->
+    <string name="car_one_key_start_select">规格 请选择净含量型号</string>
+    <string name="cancel">取消</string>
+    <string name="go_telephony">拨打</string>
+    <string name="tel_confirm">请确认拨号功能是否正常!</string>
+    <string name="customer_service">客服</string>
+    <string name="share">分享</string>
+    <string name="product_detail">商品详情</string>
+    <string name="buy">立即购买</string>
+    <string name="add_cart">加入购物车</string>
+    <string name="catg_refreshing">努力加载中···</string>
+    <string name="get_verify_tips">获取中…</string>
+    <string name="verification_tips">核销中…</string>
+    <string name="publishing_tips">发布中…</string>
+    <string name="no_net_tips">亲，网络加载失败哦~</string>
+    <string name="refresh">重新加载</string>
+    <string name="check_net_tips">请再次刷新或检查网络</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="register_now">立即注册</string>
+
+    <string name="phone_number">手机号码：%s</string>
+    <string name="submit">提交</string>
+    <string name="get_password">找回密码</string>
+    <string name="reset_password">重置密码</string>
+
+    <string name="not_get_warning">请不要重复获取</string>
+    <string name="write_mobile_warning">请输入正确的手机号码</string>
+
+
+    <!--找回密码-->
+    <string name="forget_Password_title">找回密码</string>
+    <string name="modLoginPassword_title">管理登录密码</string>
+    <string name="modPayPassword_title">管理支付密码</string>
+    <string name="edittext_phone_number">请输入手机号码</string>
+    <string name="edittext_verify_code">请输入短信验证码</string>
+    <string name="input_new_password">请输入新密码</string>
+    <string name="input_new_pay_password">请输入支付密码</string>
+    <string name="password_tips">密码不得小于8位</string>
+    <string name="pay_password_tips">支付密码不得小于6位</string>
+    <string name="verify_code_tips">短信验证码不得小于6位</string>
+    <string name="input_verify_warning">请输入验证码</string>
+    <string name="my_bank_card">我的银行卡</string>
+
+    <!--设置-->
+    <string name="exit">退出登录</string>
+    <string name="setting_title">设置</string>
+    <string name="card_quantity">%s张</string>
+    <string name="address_manage">收货地址管理</string>
+    <string name="about_ola">关于喔啦共享</string>
+    <string name="version_name">版本%s</string>
+    <string name="exit_tips">您确定要退出登录吗？</string>
+    <string name="login_out_tips">退出登录中</string>
+
+    <!--银行卡管理-->
+    <string name="add_card_tips">亲 ,为了方便提现\n记得添加银行卡哦~</string>
+    <string name="add_card">添加银行卡</string>
+    <string name="mine_card">我的银行卡</string>
+    <string name="deposit_card">储蓄卡</string>
+    <string name="credit_card">信用卡</string>
+    <string name="bank_card_no">****\t\t\****\t\t****\t\t%s</string>
+    <string name="delete_card_warning">确定要删除这张银行卡吗？</string>
+    <string name="setting_tips">设置中…</string>
+    <string name="confirm">确定</string>
+
+    <!--添加银行卡-->
+    <string name="bank_name">银行名称</string>
+    <string name="branch_bank_name">支行名称</string>
+    <string name="card_number">银行卡号</string>
+    <string name="card_type">银行卡类型</string>
+    <string name="card_host">持卡人姓名</string>
+    <string name="input_open_bank">请输入开户银行名称</string>
+    <string name="input_open_branch_bank">请输入开户支行名称</string>
+    <string name="input_card_number">请输入银行卡号</string>
+    <string name="choose_card_type">请选择银行卡类型</string>
+    <string name="input_card_host">请输入持卡人姓名</string>
+    <string name="input_id_number">请输入身份证号</string>
+    <string name="input_tel">请输入手机号码</string>
+    <string name="select_card_type_warning">请选择银行卡类型</string>
+    <string name="id_card">身份证号</string>
+    <string name="tel_number">手机号码</string>
+    <string name="set_default">设为默认</string>
+    <string name="binding">绑定</string>
+    <string name="input_bank_warning">请输入开户银行名称</string>
+    <string name="input_branch_warning">请输入开户支行名称</string>
+    <string name="input_card_warning">请输入正确的银行卡号</string>
+    <string name="input_host_name_warning">请输入持卡人姓名</string>
+    <string name="input_id_warning">请输入身份证号</string>
+    <string name="input_phone_warning">请输入手机号</string>
+    <string name="input_host_warning">请输入收货人姓名</string>
+    <string name="binding_tips">绑定中…</string>
+
+    <!--管理收货地址-->
+    <string name="no_address_tips">您还没有收货地址哦~</string>
+    <string name="add_address">添加地址</string>
+    <string name="addr_manager">管理地址</string>
+    <string name="add">添加</string>
+    <string name="delete_addr_tips">确定要删除该地址吗？</string>
+    <string name="deleting_tips">删除中…</string>
+    <string name="saving_tips">保存中…</string>
+
+    <!--地址编辑-->
+    <string name="receiver">收货人</string>
+    <string name="input_receiver">请填写收货人姓名</string>
+    <string name="mobile">手机号</string>
+    <string name="input_mobile">请填写手机号</string>
+    <string name="location">所在地</string>
+    <string name="input_location">请填写所在地</string>
+    <string name="detailed_address">详细地址</string>
+    <string name="input_detailed_address">请填写详细地址</string>
+    <string name="set_default_addr">设为默认地址</string>
+    <string name="select_addr">选择地址</string>
+    <string name="add_new_addr">添加新地址</string>
+    <string name="change_addr">修改地址</string>
+    <string name="input_addr_warning">请填写地址</string>
+    <string name="input_addr_detail_warning">请填写详细地址</string>
+    <string name="save">保存</string>
+    <string name="login_tips">登录中…</string>
+    <string name="register_title">注册</string>
+    <string name="user_name">用户名</string>
+    <string name="register_tips">注册中…</string>
+    <string name="write_msg_warning">请输入完整信息</string>
+    <string name="register_agreement_check">请仔细阅读协议</string>
+    <string name="register_doc">点击注册，即表示您已同意《用户注册协议》</string>
+    <string name="edittext_recommend_id">请输入好友ID号</string>
+    <string name="edittext_password">请输入登录密码</string>
+    <string name="phone_tips">手机号不得小于11位</string>
+
+    <!--关于喔啦-->
+    <string name="version_code">喔啦共享 V%s</string>
+    <string name="version_update">版本更新</string>
+    <string name="about_our">关于我们</string>
+    <string name="register_agreement">平台用户协议</string>
+    <string name="privacy_ensure_agreement">隐私政策</string>
+
+    <string name="new_version_tips">已经是最新版本</string>
+    <string name="checking_version_tips">正在检测中…</string>
+
+    <string name="no_product_tips">亲 ,暂无新产品哦~</string>
+    <string name="mall">商城</string>
+
+
+    <!--订单-->
+    <string name="no_order_tips">亲 ,您还没有相关订单哦~</string>
+    <string name="all">全部</string>
+    <string name="wait_pay">待付款</string>
+    <string name="finish_pay">已支付</string>
+    <string name="finished">已完成</string>
+    <string name="after_sale">售后</string>
+    <string name="go_mall">去逛逛</string>
+    <string name="go_pay">去支付</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="order_id">订单编号：%s</string>
+    <string name="finish_deliver">已发货</string>
+    <string name="in_return">退货中</string>
+    <string name="refunded">已退款</string>
+    <string name="good_num">共%s件商品  合计：</string>
+    <string name="price">￥ %s</string>
+    <string name="submitting_tips">提交中…</string>
+    <string name="order">订单</string>
+    <string name="message_center">消息中心</string>
+    <string name="system_notice">系统通知</string>
+    <string name="clear">清空</string>
+
+    <!--实名认证-->
+    <string name="uploading_photo">上传身份证照片</string>
+    <string name="certification_title">实名认证</string>
+    <string name="skip_title">跳过</string>
+    <string name="notice">亲，实名认证后才能进行下一步操作哦~</string>
+    <string name="real_name">真实姓名</string>
+    <string name="ID_number">身份证号</string>
+    <string name="input_realName">请输入真实姓名</string>
+    <string name="input_IDNumber">请输入15位或18位身份证号</string>
+    <string name="please_input_name">请输入姓名</string>
+    <string name="please_input_id">请输入身份证号</string>
+    <string name="add_card_title">添加银行卡</string>
+
+
+    <!--确认订单-->
+    <string name="address_add">+\t添加收货地址</string>
+    <string name="products_total_price">商品总价</string>
+    <string name="commit_order">提交订单</string>
+    <string name="detail">详情</string>
+    <string name="please_inputAddress">请先添加收货地址</string>
+    <string name="please_inputAddress_or_self_mention_point_address">请先添加收货地址或者选择自提点</string>
+    <string name="ola_shop">喔啦共享商城</string>
+    <string name="good_total_price">商品总价</string>
+    <string name="total_product_num">共%s件商品  小计：</string>
+    <!--支付-->
+    <string name="need_pay">需支付：<Data><![CDATA[<font color="#ea4140">%1$.2f</font>]]></Data>元</string>
+    <string name="pay_type">支付方式：</string>
+    <string name="pay_title">确认支付</string>
+    <string name="cancel_pay_tips">是否取消支付？</string>
+    <string name="cancel_pay">取消</string>
+    <string name="confirm_pay">确定</string>
+    <string name="checking_tips">验证中…</string>
+    <string name="paying_tips">支付中…</string>
+    <string name="set_pwd_tips">请先设置支付密码</string>
+    <string name="go_to_open_app_notice">如需消息提醒推送，请前往打开通知，允许系统发送消息</string>
+    <string name="pay_succeed">支付成功</string>
+    <string name="pay_failed">支付失败</string>
+    <string name="ali_pay">支付宝支付</string>
+    <string name="ali_explain">推荐有支付宝的用户使用</string>
+
+    <!--支付状态-->
+    <string name="back">返回</string>
+    <string name="check_order">查看订单</string>
+    <string name="pay_fail_tips">支付遇到问题哦，请重新支付~</string>
+    <string name="pay_again">重新支付</string>
+    <string name="input_paypassword">输入支付密码</string>
+    <string name="forget_paypassword">忘记支付密码？</string>
+
+    <!--明细-->
+    <string name="filter">筛选</string>
+    <string name="records_empty">亲,暂无记录哦~</string>
+    <string name="write_time_warning">请输入完整的时间</string>
+
+    <string name="please_input_withdraw_num">请输入佣金提现到余额数值</string>
+    <string name="please_input_withdraw_num_new">请输入提现数值</string>
+    <string name="thaw_limit_now">当前提现额度：%s</string>
+
+    <!--我的二维码-->
+    <string name="save_qr_code_to_mobile">保存二维码到手机</string>
+    <string name="QR_code_card">二维码名片</string>
+
+    <!--我的下级-->
+    <string name="member_title">我的团队</string>
+    <string name="one_level">我的好友</string>
+    <string name="two_level">陌生人</string>
+    <string name="member_empty">啊哦！您没有好友~\n要努力结交哦~</string>
+
+    <string name="expenditure">¥ %s</string>
+    <string name="share_prize">分享奖</string>
+    <string name="one_level_member">我的好友: %s人</string>
+    <string name="two_level_member">陌生人: %s人</string>
+
+    <!--提现-->
+    <string name="all_withdraw">全提</string>
+    <string name="withdraw_bank">提现卡</string>
+    <string name="ok">确认</string>
+    <string name="choose_bank_card">选择银行卡</string>
+    <string name="can_withdraw_quota">可提现额度：</string>
+    <string name="quota_less_100_tip">余额小于100无法提现</string>
+    <string name="withdraw_100_tip">提现金额不能小于100哟</string>
+    <string name="withdraw_over_tip">输入金额不能大于提现金额哟</string>
+    <string name="withdraw_100_times_tip">提现金额必须是100的整数哟</string>
+    <string name="loading_tips">加载中…</string>
+
+    <!--订单详情-->
+    <string name="details">详情</string>
+    <string name="waite_pay_hint">交易将在%s后关闭</string>
+    <string name="order_invalid">订单已失效</string>
+    <string name="order_pay_time">支付时间：%s</string>
+    <string name="pay_method">支付方式：%s</string>
+    <string name="create_order_time">下单时间：%s</string>
+    <string name="wait_send">待发货</string>
+    <string name="confirm_receipt">确认收货</string>
+
+    <string name="buy_num_text">购买数量</string>
+    <string name="no_product_prompt">该宝贝不能减少了呦～～</string>
+    <string name="choose_sku_tips">请选择%s</string>
+    <string name="selected">已选择</string>
+    <string name="wechat">微信支付</string>
+    <string name="wechat_explain">推荐有微信的用户使用</string>
+    <string name="quota_pay">余额支付</string>
+    <string name="quota_pay_pop">余额支付(-￥%s)</string>
+    <!--<string name="quota_explain">推荐有余额的用户使用</string>-->
+    <string name="quota_explain">推荐有余额的用户使用</string>
+    <string name="quota_explain_pop">共￥%s,优先使用余额抵扣</string>
+    <string name="vip_product">vip商品</string>
+    <string name="good_product">精选好物</string>
+    <string name="today_product">今日特卖</string>
+    <string name="user_id_number">%s(ID %s)</string>
+    <string name="pet_name_title">昵称</string>
+    <string name="common_member">普通会员</string>
+    <string name="gold_member">黄金会员</string>
+    <string name="diamond_member">钻石会员</string>
+    <string name="withdraw_apply_success_tips">提现申请提交成功</string>
+
+    <!--购物车-->
+    <string name="no_data">暂无数据</string>
+    <string name="total_price">合计：</string>
+    <string name="to_settle">去结算</string>
+    <string name="uneffective_product">失效商品</string>
+    <string name="delete_uneffective_cart_product">确定删除所有失效商品</string>
+    <string name="shop_cart">购物车</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="complete">完成</string>
+
+    <string name="total">小计：</string>
+
+
+    <!--商城-->
+    <string name="mall_buy">购买</string>
+    <string name="invite">邀请</string>
+    <string name="information">资讯</string>
+    <string name="sign">签到</string>
+    <string name="share_title">【喔啦共享】教育大联盟</string>
+    <string name="share_content">喔啦共享·教育邀请一起并肩作“站”</string>
+
+    <string name="share_redpacket_title">【喔啦共享】年终大反馈</string>
+    <string name="share_redpacket_content">老板疯了，10亿红包等你来抢</string>
+
+    <string name="new_product_tips">新款上线</string>
+    <string name="today_product_tips">今日特卖</string>
+    <string name="good_product_tips">会员专享，喔啦精选</string>
+    <string name="no_show">不再显示</string>
+
+    <string name="logistics_msg">物流信息</string>
+    <string name="reference">推荐人:%s</string>
+    <string name="reference_id">ID:%s</string>
+    <string name="uneffective">失效</string>
+    <string name="explain">说明</string>
+    <string name="exit_app_tips">再按一次退出程序</string>
+    <string name="member_explain">会员说明</string>
+
+
+    <string name="is_join_qq_group">是否加入qq群</string>
+    <string name="order_accumulate">VIP订单</string>
+
+    <string name="have_read">我已阅读</string>
+    <string name="activity_gold_rule">1.什么是活动金？\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;活动金是在本平台活动期间，根据活动内容规则赠送于用户。
+        具体活动内容以官方公众号“台州市卡撒网络科技有限公司”以及本平台推送活动信息为准；\n2.活动金获取途径？
+        \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;活动金主要获取途径为本平台开展的各类活动，例如现有活动中用户购物后，
+        确认收到本平台所寄发货物，用户必须主动确认收货后，本平台将于活动期间赠送于用户；\n3.活动金如何使用？
+        \n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;在本平台“个人中心”页面有兑换按钮，活动金可等比兑换余额进行本平台线上消费购物、
+        用户可根据自主情况将本平台赠予活动金兑换成的余额进行提现至用户自身银行卡。
+    </string>
+
+    <string name="withdraw_rule">※提交成功后，将以银行实际打款时间为准</string>
+    <string name="withdraw_rule_new">提交成功后将以银行实际打款时间为准</string>
+    <string name="withdraw_hint">提现金额必须>=100</string>
+    <string name="check_rate">查看费率</string>
+    <string name="withdraw_rate_explain">提现费率说明</string>
+
+    <string name="no_empty">数据不能为空</string>
+    <string name="withdraw_number_title">提现金额</string>
+    <string name="please_input_withdraw_number">请输入提现金额</string>
+    <string name="go_panic_buying">去抢购</string>
+    <string name="education_training">教育培训</string>
+    <string name="order_enter">预约报名</string>
+    <string name="course_detail">课程详情</string>
+    <string name="join">参加</string>
+    <string name="course_content_title">课程内容</string>
+    <string name="course_time_title">课程时间</string>
+    <string name="address_title">地址：</string>
+    <string name="appointment">预约</string>
+    <string name="wait_for_cancel">取消中</string>
+    <string name="have_not_buy_this_course">您未购买该课程</string>
+
+
+
+    <!--new-->
+    <string name="register_login_mod_ask_title">你好！</string>
+    <string name="register_ask_content">终于等到你,还好没放弃！</string>
+    <string name="login_ask_content">一个人,也可以迸发力量！</string>
+    <string name="mod_ask_content">坚持,是一种品格！</string>
+    <string name="register_new">注&#160;册</string>
+    <string name="register_submit_new">注&#160;&#160;&#160;册</string>
+    <string name="login_new">登&#160;录</string>
+    <string name="login_submit_new">登&#160;&#160;&#160;录</string>
+    <string name="mod_new">找回密码</string>
+    <string name="mod_submit_new">确&#160;&#160;&#160;定</string>
+    <string name="phone_hint">输入11位手机号码</string>
+    <string name="new_password_hint">输入8-16位新密码</string>
+    <string name="password_hint">输入8-16位密码</string>
+    <string name="verify_code_hint">输入验证码</string>
+    <string name="invite_code_hint">推广ID</string>
+    <string name="invite_code_tips">* 非必填</string>
+    <string name="personal_center">个人中心</string>
+    <string name="shop_amount">购物金额:</string>
+    <string name="member_level_system">会员等级体系</string>
+    <string name="check">查看</string>
+    <string name="exchange">兑换</string>
+    <string name="my_orders">我的订单</string>
+    <string name="all_orders">全部订单</string>
+    <string name="can_use">可使用</string>
+    <string name="wait_for_pay">待付款</string>
+    <string name="wait_for_accept">待收货</string>
+    <string name="wait_for_discuss">待评价</string>
+    <string name="auth_manager">认证管理</string>
+    <string name="account_detail">账务明细</string>
+    <string name="limit_group_buy">限时团购</string>
+    <string name="activity_products">活动商品</string>
+    <string name="my_coupons">我的卡券</string>
+    <string name="record_manage">档案管理</string>
+    <string name="my_appointment">我的预约</string>
+    <string name="my_messages">我的消息</string>
+    <string name="my_comments">我的评论</string>
+    <string name="my_friends">我的好友</string>
+    <string name="recommend_for_you">为你推荐</string>
+    <string name="member_manager">会员管理</string>
+    <string name="service_manager">服务管理</string>
+    <string name="fund_manager">资金管理</string>
+    <string name="sale_number">已销售%s件</string>
+    <string name="hot_sale_number">已热售%s件</string>
+    <string name="search_history">历史搜索</string>
+    <string name="hot_search">热门搜索</string>
+    <string name="delete_history_record_tips">确定删除全部历史记录</string>
+    <string name="walk_around_ola">逛喔啦</string>
+    <string name="quick_rob_red_packets">快速抢红包</string>
+    <string name="high_back_low_cost">高返特价</string>
+    <string name="high_quality_low_cost">高品质低价</string>
+    <string name="red_packet_deduct_from">红包抵扣</string>
+    <string name="services_everyday">福利天天有</string>
+    <string name="ola_recommend">喔啦推荐</string>
+    <string name="limit_rob">限量抢购</string>
+    <string name="crazy_promote">疯狂促销</string>
+    <string name="group_buy_activity">团购活动</string>
+    <string name="limit_group_buy_activity">限时团购</string>
+    <string name="high_quality_rob">高品质抢购</string>
+    <string name="free_shipping_products">包邮商品</string>
+    <string name="every_time_update">随时随刻更新</string>
+    <string name="education_area">教育专区</string>
+    <string name="check_more">查看更多</string>
+    <string name="brand_organ">品牌机构</string>
+    <string name="hot_courses">热门课程</string>
+    <string name="ten_thousand_people_rob">万人疯抢啊</string>
+    <string name="wait_for_what">还等什么</string>
+    <string name="join_lessons_right_now">立即拼课</string>
+    <string name="quick_rob">快来抢购吧</string>
+    <string name="get_coupons_center">领券中心</string>
+    <string name="info_title">资讯</string>
+    <string name="city_task">同城任务</string>
+    <string name="shop_circle">商圈</string>
+    <string name="product_intro">商品介绍</string>
+    <string name="low_cost_area">9.9专区</string>
+    <string name="traditional_chinese_goto_school">中医进校</string>
+    <string name="activity_intro">活动介绍</string>
+    <string name="multiple_title">综合</string>
+    <string name="price_title">价格</string>
+    <string name="sale_title">销量</string>
+    <string name="settle">结算</string>
+    <string name="cart_no_data">购物车空空如也～</string>
+    <string name="walk_around">去逛逛吧</string>
+    <string name="developing">该功能正在加急开发</string>
+    <string name="shop_under_review">已提交成功，等待喔啦平台审核中......</string>
+    <string name="year_card">年卡</string>
+    <string name="buy_year_card">购买年卡</string>
+    <string name="education_organ_details">教育机构详情</string>
+    <string name="organ_info">教育信息</string>
+    <string name="family_head_comment">家长点评</string>
+    <string name="organ_course_title">机构课程</string>
+    <string name="have_special_right">尽享特权</string>
+    <string name="only_year_card_member_have">年卡会员专享</string>
+    <string name="have_buy_number">已有%s人购买</string>
+    <string name="pay_type_new">支付方式</string>
+    <string name="year_card_buy">年卡购买</string>
+    <string name="education_train_special_subject_title">教育培训专题页</string>
+    <string name="appointment_details_title">预约详情</string>
+    <string name="appointment_success">预约成功</string>
+    <string name="appointment_wait">等待确认</string>
+    <string name="appointment_finish">已经完成</string>
+    <string name="comment_finish">已评论</string>
+    <string name="cancel_success">取消成功</string>
+    <string name="have_ask_for_leave">已请假</string>
+    <string name="have_break_appointment">已爽约</string>
+    <string name="cancel_appointment">取消预约</string>
+    <string name="discuss">评价</string>
+    <string name="appointment_successful_tips">(记住不要迟到哦)</string>
+    <string name="appointment_wait_confirm_tips">(稍等一下就好啦)</string>
+    <string name="cancel_success_tips">(期待下次合作)</string>
+    <string name="have_ask_for_leave_tips">(随时抓紧复习哦)</string>
+    <string name="have_break_appointment_tips">(记得下次承诺哦)</string>
+    <string name="appointment_finish_tips">(感谢你们的信任)</string>
+    <string name="comment_finish_tips">(敬请提出想法哦)</string>
+    <string name="my_address">我的收货地址</string>
+    <string name="account_secure">账号安全</string>
+    <string name="secret">隐私</string>
+    <string name="about_ola_new">关于喔啦</string>
+    <string name="login_out">退出登录</string>
+    <string name="pay_password">支付密码</string>
+    <string name="no_messages">暂无消息哦～</string>
+    <string name="system_message">系统消息</string>
+    <string name="activity_message">活动消息</string>
+    <string name="order_message">订单消息</string>
+    <string name="member_rule">等级体系</string>
+    <string name="no_details">亲，暂无记录哦～</string>
+    <string name="comments">评论</string>
+    <string name="publish_content_hint">该课程感觉如何？告诉大家吧～</string>
+    <string name="publish_comments">发表评价</string>
+    <string name="publish">发布</string>
+    <string name="free_shipping_special">包邮专场</string>
+    <string name="low_price_special">9.9专场</string>
+    <string name="deduct_special">抵扣专场</string>
+    <string name="group_buy_special">团购专场</string>
+    <string name="supplier">供应商</string>
+    <string name="no_comment">暂无评论，快去评论吧～</string>
+    <string name="my_invite">我的邀请</string>
+    <string name="invite_successful">成功邀请</string>
+    <string name="invite_right_now">立即邀请</string>
+    <string name="pay_successful_text">恭喜成功获得%s返利\n金额将在您收货后到您的账户</string>
+    <string name="pay_failure_text">支付失败</string>
+    <string name="continue_walk_around">继续逛</string>
+    <string name="address_add_new">添加收货地址</string>
+    <string name="have_buy">已购买</string>
+    <string name="confirm_pay_total">确认支付%s元</string>
+    <string name="select_area">选区</string>
+    <string name="have_appointment">已预约</string>
+    <string name="have_cancel">已取消</string>
+    <string name="activity">活动</string>
+    <string name="product_classify">商品分类</string>
+    <string name="estimate_can_back_value">预计可返%s元</string>
+    <string name="red_packet">红包</string>
+    <string name="coupon">优惠券</string>
+    <string name="total_product_num_new">共%s件，</string>
+    <string name="order_details_total_product_num_new">共%s件 小计：</string>
+    <string name="order_details_back">共返：</string>
+    <string name="remark">备注</string>
+    <string name="pay_right_now">立即支付</string>
+    <string name="buy_again">再次购买</string>
+    <string name="go_comment">去评论</string>
+    <string name="course_title">课程</string>
+    <string name="apply_return_back">申请售后</string>
+    <string name="show_qr_code">展示二维码</string>
+    <string name="check_is_self_mention_point">查看自提点</string>
+    <string name="open_right_now">立即开启</string>
+    <string name="i_know">我知道了</string>
+    <string name="private_title">协议与政策</string>
+    <string name="private_content">感谢您的信任和使用，喔啦共享APP更新了<Data><![CDATA[<font color="#ea4140">"+《平台用户协议》+"/font>]]></Data>和<Data><![CDATA[<font color="#ea4140">"+《隐私政策》+"/font>]]></Data>,
+        \n您可以通过“个人中心”右上角“设置”按钮“关于喔啦共享”处进行查看并了解更多内容。我们将严格按照隐私政策保护您的个人信息，所有采集权限均会告知用户，用户有权可以拒绝协议，喔啦平台也会根据您的选择关闭当前进程。
+        \n喔啦共享APP承诺不会透露任何隐私。
+        \n如您未满14周岁，您还需要通知您的监护人共同阅读<Data><![CDATA[<font color="#ea4140">"+《隐私政策》+"/font>]]></Data>，点击“同意”即表示您和您的监护人均已阅读并同意本平台全部条款。
+       </string>
+
+    <string name="private_content_first">感谢您的信任和使用，喔啦共享APP更新了</string>
+    <string name="private_content_second">《平台用户协议》</string>
+    <string name="private_content_third">和</string>
+    <string name="private_content_fourth">《隐私政策》</string>
+    <string name="private_content_fifth">您可以通过“个人中心”右上角“设置”按钮“关于喔啦共享”处进行查看并了解更多内容。</string>
+    <string name="private_content_fifth_1">我们将严格按照隐私政策保护您的个人信息，所有采集权限均会告知用户，用户有权可以拒绝协议，喔啦平台也会根据您的选择关闭当前进程。</string>
+    <string name="private_content_sixth">喔啦共享APP承诺不会透露任何隐私。</string>
+    <string name="private_content_seventh">如您未满14周岁，您还需要通知您的监护人共同阅读</string>
+    <string name="private_content_eighth">《隐私政策》</string>
+    <string name="private_content_ninth">，点击“同意”即表示您和您的监护人均已阅读并同意本平台全部条款。</string>
+
+    <string name="permission_content_first">喔啦共享APP需获取</string>
+    <string name="permission_content_second">（储存空间读取）</string>
+    <string name="permission_content_third">和</string>
+    <string name="permission_content_fourth">（电话）</string>
+    <string name="permission_content_fifth">权限，用于：</string>
+    <string name="permission_content_sixth">1.商品图片的缓存；</string>
+    <string name="permission_content_seventh">2.加载读取喔啦APP储存在本地的缓存信息；</string>
+    <string name="permission_content_eighth">3.拨打客服电话以及各个业务电话呼叫；</string>
+    <string name="permission_content_ninth">4.喔啦共享APP保证您的账户安全；</string>
+    <string name="permission_content_tenth">5.以上权限仅限喔啦共享APP使用；</string>
+    <string name="permission_content_eleventh">6.喔啦共享APP保障绝不非法采集或透露用户个人隐私；</string>
+
+
+    <string name="limit_activity">限量活动</string>
+    <string name="agree">同意</string>
+    <string name="disagree">不同意</string>
+    <string name="have_closed">已关闭</string>
+    <string name="after_sale_1">售后中</string>
+    <string name="bottom_home">首页</string>
+    <string name="bottom_shop">商家</string>
+    <string name="bottom_shop_manager">店铺管理</string>
+    <string name="bottom_cart">购物车</string>
+    <string name="bottom_mall">商城</string>
+    <string name="bottom_activity">活动</string>
+    <string name="bottom_mine">我的</string>
+    <string name="comment_content_tips">请输入评论内容</string>
+    <string name="confirm_accept_good_tips">确定要确认收货吗,确认收货后将无法进行线上退换货，需联系客服，如已确认表示默认同意</string>
+    <string name="return_good_tips_title">喔啦平台退换货协议</string>
+    <string name="return_good_tips">平台发货后七日内可进行退换货，退货商品运费由用户自行承担；如因包装破损问题及产品质量问题，工作人员联系核实后，由平台承担运费；
+        \n针对虚拟类、易腐类、鲜活类、音像制品、计算机软件等数字化商品不支持七日无理由退换货。
+        \n如您遇到商品质量问题、包装破损、暴力运输等情况后可由以下操作进行售后申请服务，如您已经完成了该订单状态，在平台活动期内，如退换货成功，平台有权扣除活动给予奖励；
+        \n确认表示默认同意，工作人员与24小时内会与您联系退换货事宜，请保持您的电话畅通；</string>
+    <string name="withdraw_tips_title">提现申请说明</string>
+    <string name="withdraw_tips">平台为保障用户资金安全及个人信息安全性，提现信息均会提交与合作银行进行打款，根据平台与合作银行签署协议，提现申请提交后，平台将会有少于24小时的审核期，确保用户所得无作弊，无作假，正常所得等相关安全信息，并交付与合作银行进行审核；
+        用户预计到款时间均根据银行实际打款时间为准，如用户超过七天未收到打款信息，可咨询客服电话4000576020，平台会积极配合用户核实原因并协助用户进行到款；
+        \n确认表示默认同意，喔啦共享APP感谢您的支持和使用；</string>
+
+    <string name="product_comment">商品评论</string>
+    <string name="education_comment">教育评论</string>
+    <string name="education">教育</string>
+    <string name="special_title">特色</string>
+    <string name="finish_express_tips">您的订单已签收，欢迎您再次光临！</string>
+    <string name="all_products">全部商品</string>
+    <string name="organ">机构</string>
+    <string name="home_recommend">首页推荐</string>
+    <string name="cancel_appointment_dialog_content">您确定取消预约吗？</string>
+    <string name="is_confirm_write_off_order">您确定核销该订单吗？</string>
+    <string name="have_no_buy_lesson">您还未购买该课程</string>
+    <string name="no_logistics_info">暂无物流信息</string>
+    <string name="circle_title">圈子</string>
+
+    <string name="business_identification">商家认证</string>
+    <string name="business_orders">商家订单</string>
+    <string name="have_checked_orders">已核销订单</string>
+    <string name="have_not_checked_orders">未核销订单</string>
+
+
+    <string-array name="chinese_week_string_array">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+
+
+    <string name="shop_organ_name">商家机构名称：</string>
+    <string name="corporate_representative">法人代表：</string>
+    <string name="shop_organ_phone">商家机构联系电话：</string>
+    <string name="current_account_holder_name">当前账号使用人姓名：</string>
+    <string name="shop_organ_address">商家机构所在地：</string>
+    <string name="detail_address">详细地址：</string>
+    <string name="is_self_mention_point">提供货物自提点：</string>
+    <string name="load_business_license">上传营业执照：</string>
+    <string name="upload_shop_images">上传店招图：</string>
+    <string name="fragment_is_self_mention_point">提供货物自提点</string>
+
+    <string name="input_shop_organ_name_tip">请输入商家机构名称</string>
+    <string name="input_corporate_representative_tip">请输入法人代表</string>
+    <string name="input_shop_organ_phone_tip">请输入商家机构联系电话</string>
+    <string name="input_shop_organ_phone_length_tip">商家机构联系电话不得小于8位</string>
+    <string name="input_business_hours_tip">请输入商家营业时间</string>
+    <string name="input_current_account_holder_tip">请输入当前账号使用人姓名</string>
+    <string name="input_shop_organ_address_tip">请选择商家机构所在地</string>
+    <string name="input_detail_address_tip">请输入详细地址</string>
+    <string name="input_load_business_license_tip">请选择营业执照</string>
+    <string name="input_shop_images_tip">请选择店招图片</string>
+
+    <string name="submit_success">提交成功</string>
+    <string name="shop_title">商家</string>
+    <string name="ola_shop_title">喔啦商家</string>
+    <string name="one_key_dial">一键拨号</string>
+    <string name="special_product">特色产品</string>
+
+    <!--上传营业执照说明-->
+    <string name="upload_business_license_intro_title">营业执照上传说明</string>
+    <string name="upload_business_license_intro_content">
+        喔啦平台会根据您的上传信息采集相机或相册图片，仅限用户主动提交，喔啦平台不会主动采集用户数据，上传证件需真实有效，如使用非法证件、伪造证件、过期证件等不属于国家规定证件，喔啦平台有权不允许通过，点击确认后表示默认已查阅本页信息；\n
+        1.资质证件：营业执照复印件（通过最新年检有效期内）、质检报告复印件或产品质量合格证明（不同品牌不同类型产品均需提供一份）；\n
+        2.个人类：\n
+        ①.需上传营业执照照片和个人身份证照片名字必须对应。\n
+        ②.不能跨范围经营、产品必须有性价比（参照其他电子商务平台）\n
+        ③.允许借用营业执照，但是必须由营业执照法人与借用人（当地代理商）签订承担商品法律责任书。（责任书可发送至kasa0576@163.com邮箱）\n
+        ④.上传商品（提供商品代上传）必须有国家规定的相关资质证书。\n
+    </string>
+    <string name="continue_text">继续</string>
+
+    <string name="apply_submit_success_content">已提交成功\n等待喔啦平台审核中</string>
+    <string name="self_mention_point">自提点：</string>
+    <string name="select_self_mention_point_title">自提点地址</string>
+    <string name="scan_right_code_tip">您扫描的二维码无效</string>
+    <string name="scan_qr_code_error_tip">错误的二维码</string>
+
+    <string name="shop_detail">商家详情</string>
+    <string name="shop_products">商品</string>
+    <string name="capital_manage">资金管理</string>
+
+    <string name="business_apply_intro_1">
+        商家认证说明：\n
+        商家认证入驻喔啦共享商城平台，为了保证商家货源真实、有效、质量有保障，有较强性价比;\n
+        依据《网络交易管理办法》第二章第七条规定，商家需要提供如下相关资质和证书；\n
+        1.使用不是自己身份证或营业执照开店认证者会极大可能不会通过认证；\n
+        2.认证每次提交后审核时间均为48小时，期间无需催促；\n
+        3.同一用户在喔啦共享仅能进行一次认证，如多账户进行同一身份证或者营业执照认证系统均视为同一用户，届时产生的损失由用户自行承担；\n
+        4.认证资料内如设置为自提点，可进行货物储仓形式，用户可在购物后选择您当前所填写地址为自提点；并可让用户直接到您店铺所在地；\n
+        5.商家认证流程步骤：1.申请认证入驻填写资料、2.工作人员与您核实并签订合同、3.提供相关产品（商品）相关内容交予工作人员安排线上销售；\n
+        6.商家证件及资料均保证真实有效，喔啦共享商城平台会每年核实一次，以确保商户资料真实有效；\n
+        7.如以结业或注销商家等具体事宜，请及时告知当地业务人员，平台会适当的调整相关策略；\n
+        8.如认证商家提供产品（商品）有掺假及违法等内容，由供应商承担一切法律后果；喔啦平台会积极配合相关部门提供资料证据；\n
+        9.如用户多次反馈举报商家不法行为及违规不正当行为，喔啦平台有权冻结账户；\n
+        10.喔啦平台官方唯一服务热线：4000576020\n
+        分类产品审核所需证书及标准\n
+        图书音像资质标准\n
+        1、若经营图书类，需提供图书出版物经营许可证。\n
+        2、若经营音像类，需提供图书音像制品经营许可证。\n
+        3、若经营文化周边类，需提供相关行业资质及商标授权书。\n
+        家用电器资质标准\n
+        1、产品认证证书（CCC认证）（针对具体产品型号）；\n
+        2、企业的《工业产品生产许可证》。\n
+        其他说明：\n
+        1、目前涉及：一般电压在36V以上的产品需3C认证，具体可登录中国质量认证中心3C产品认证类目下《认证范围》涉及的产品。参考地址如下： http://cccpub.cnca.cn/service-public/#\n
+        2、目前涉及：电热毯、压力锅、燃气热水器等可能危及人身、财产安全的产品应提供《工业产品生产许可证》；\n
+        3、进口产品仍需经过3C认证。\n
+    </string>
+    <string name="business_apply_intro_2">
+        五金家装\n
+        一、每个品牌须至少提供一份由第三方质检机构出具的《产品质量检测报告》，其中商业/办公家具、住宅家具必要检测项要求如下：\n
+        1、木制家具：甲醛释放量检测；\n
+        2、金属家具：力学性能检测、安全性检测；\n
+        3、床垫、软体家具：安全性检测。\n
+        二、若经营电动工具、照明设备、电线电缆、电路开关及保护或连接用电器装置、低压电器、小功率电动机、家用和类似用途设备、安全玻璃、安全技术防范产品、装饰装修材料等属于《强制性产品认证管理规定》范围的产品（CCC产品认证范围），需提供一份生产厂家的《中国国家强制性产品认证证书》即3C安全认证证书。\n
+        三、若经营人造板、耐火材料、电线电缆、橡胶软管和软管组合件、橡胶密封制品、电热毯、特种劳动防护用品、水泥、建筑防水卷材、铜及铜合金管材、铝、钛合金加工产品、燃气器具、危险化学品等属于国家工业品生产许可管理范围的产品（工业产品生产许可目录），必须提供至少一份生产厂家的《全国工业品生产许可证》。\n
+        四、特种劳动防护用品要求生产企业的《全国工业生产许可证》及《特种劳动防护用品安全标志证书》。\n
+        五、声称获得了节能产品认证的灯具生产企业须提供《中国节能产品认证证书》。\n
+        六、若经营装修设计需提供各级装饰协会颁发的室内装饰企业设计资质相应等级证书。\n
+        七、若经营装修施工/工程监理要求如下： 1、住建部颁发的工程设计与施工资质相应等级证书（主要含室内装修、装饰范围）； 2、各级建设厅颁发的相应的建筑业企业资质证书； 3、工程监理需提供建设部或中国室内装饰协会（含地区性装饰协会）颁发的工程监理资质证书。\n
+        家具：\n
+        一.每个品牌须至少提供一份由第三方质检机构出具的《产品质量检测报告》，其中商业/办公家具、住宅家具必要检测项要求如下： 1、木制家具：甲醛释放量检测； 2、金属家具：力学性能检测、安全性检测； 3、床垫、软体家具：安全性检测。\n
+        二.家具安装服务类商家 1. 提供37类相关商标。 2. 经营物流配送服务需提供39类相关商标。（如有，非必填项）。\n
+        手机数码资质标准\n
+        1.入驻品牌需满足注册状态为“TM”（满六个月）或“R”；\n
+        2.如非商标持有人入驻需提供逐级销售授权书，保证可以从品牌商逐级追溯到精彩商城。\n
+        3.手机：3C认证书、电信设备进网许可证、无线电发射设备型号核准证\n
+        4.对讲机：无线电发射设备型号核准证\n
+        5.每个品牌、每个类目产品，至少提交一份由第三方质检机构出具近一年内送检的质检报告；\n
+        6.成品检测报告内容须包含品牌名称、产品名称、产品型号和各类产品所必须的各类检测项，必要检测项要求如下： 1)电源适配器：检测项目必须包括：标签及说明书检查（包含标签擦拭及内容检查）、抗电强度 2)锂电池：检测项目必须包括：放电性能、自由跌落、过充电保护、短路测试； 3)移动电源：检测项目必须包括：标记和说明检查、跌落试验、放电性能； 注：电源适配器、移动电源检测依据GB4943，锂电池检测依据GB18287。\n
+        7.授权代理书或授权销售证明书（销售授权最高授权人为厂家（国产质检报告上的厂家）/总代（进口报关单收货人） ），授权终止于合作商，授权关系不能中断，过期无效。\n
+        8.质检报告复印件或产品质量合格证明文件1份请提供最新的质检报告，产品多的请提供至少5个不同类别产品的质检报告，需有国家质量监督检验中心检验专用章。\n
+        电脑办公资质标准\n
+        1、商标注册证复印件及注册人与授权人的关系证明1份，有商标注册证的必须提供，若商标还在受理中的，请请提供受理通知书。（受理状态满2年）\n
+        2、授权代理书或授权销售证明书（销售授权最高授权人为厂家（国产质检报告上的厂家）/总代（进口报关单收货人） ），授权终止于合作商，授权关系不能中断，过期无效。\n
+        3、质检报告复印件或产品质量合格证明文件1份请提供最新的质检报告，产品多的请提供至少5个不同类别产品的质检报告，需有国家质量监督检验中心检验专用章。\n
+        4、海关报关单及质量相关的检验证书1份针对进口产品\n
+        5、合作商给精彩商城的授权书1份写明具体的产品品牌 注：以上资料均需入驻商家加盖公章扫描上传至入驻系统中。 若入驻商品需通过国家强制认证，则必须可以提供该产品对应的3C认证书。 3G/4G上网、传真机则需要有入网许可证。\n
+        其他说明： 3C认证详情请查询http://cccpub.cnca.cn/service-public/#\n
+        服装服饰资质标准\n
+        1. 如商标处于“注册申请受理”状态(即“TM”商标)，注册申请时间须满六个月；\n
+        2. 开店公司注册资质材料要求：若经营进口商品，需提交该品牌近一年内中华人民共和国海关进口货物报关单复印件，如报关单中商品的商标名称可在商标局官网(http://sbj.saic.gov.cn/sbcx/ )上查询到该类别商品的注册信息，则还须提供商标注册证明或者商标受理通知书、完整授权证明；如查不到，则仅须提交该品牌近一年内中华人民共和国海关进口货物报关单复印件。 ‚、若经营国产商品，则每个品牌须至少提供一份由第三方质检机构出具的一年内的检测报告。成品检测报告内容须包含品牌名称、产品名称和各类产品对应的下述必检项目，必要检测项要求如下：\n
+        1、男女装/文胸/塑身衣/童装/男女袜：成分含量、GB18401全套、标识标志；\n
+        2、家居/保暖内衣：成分含量、GB18401全套、标识标志、外观质量、水洗尺寸变化率；\n
+        3、羽绒服：成分含量、GB18401全套、标识标志、外观质量、含绒量、充绒量、种类鉴定；\n
+        4、皮衣皮草：摩擦色牢度（仅皮革）、皮革撕裂力（仅皮革）、甲醛含量、可分解芳香胺染料、标识标志、外观质量、材质鉴定；\n
+        5、针织衫：成分含量、GB18401全套、标识标志、水洗尺寸变化率。\n
+        6、手套/领带/领结/帽子/手帕/围巾/丝巾/披肩/布面料/毛线：GB18401全套，以及标识标志； 注： GB18401全套包括：耐水色牢度、耐汗渍色牢度、耐干摩擦色牢度、甲醛、PH值、异味、可分解芳香胺染料； ‚有填充物的产品（除羽绒）需加检“原料要求”，皮革类（鞋服、皮带、手套）需加检“材质鉴定”； ƒ种类鉴定，主要指“鹅鸭绒种类鉴定”。\n
+        7、经营国产的眼镜镜片、眼镜架、太阳镜、护目镜、运动镜等产品的商家，需提交生产企业的《全国工业产品生产许可证》，《全国工业产品生产许可证》经营范围应包含经营产品范围。参考 http://www.bjtsb.gov.cn/infoview.asp?ViewID=14656#27-1\n
+        8、经营框架类有度数眼镜（近视、远视）的商家，需提交验光人员职业资格证书以及验光设备焦度计、验光仪的年度检定证书。\n
+        家居家装类目资质标准\n
+        个护化妆资质标准\n
+        化妆品生产厂商持有的《化妆品卫生许可证》复印件； 《化妆品生产许可证》（即《全国工业产品生产许可证》）复印件； 化妆品生产厂商的营业执照副本复印件； 部分商品检验检疫合格的报告或证明复印件； 海关进口货物报关单复印件；（进口化妆品需提供） 出入境检验检疫入境货物检验检疫证明复印件；（进口化妆品需提供） 进口非特殊用途化妆品备案凭证复印件；（进口化妆品需提供） 商品需带有CIQ表示和中文标签；（进口化妆品需提供）\n
+        1、提供的商标注册证，商标状态为R标\n
+        2、经营国产化妆品的，则提供：全国工业产品生产许可证、化妆品生产企业卫生许可证、生产单位营业执照、检测报告、商标注册证、逐级销售授权（保证可以从品牌方或生产方追溯到精彩商城）、国产非特化妆品备案或者国产特殊用途化妆品卫生许可批件。\n
+        备注1：特殊用途化妆品是指用于育发、染发、烫发、脱毛、美乳、健美、除臭、祛斑、防晒、美白类化妆品。\n
+        备注2：如果涉及委托加工的，需提供委托加工协议或授权书。如果涉及商标使用授权的，则提供完整的商标授权或商标使用许可合同备案。\n
+        备注3：2014年6月30日前做的非特殊用途化妆品备案的，则提供各省市食药局出具的备案凭证；如果是2014年6月30日后做的备案，则提供国家食药总局网站上备案完成的网站截图或电子档备案凭证。\n
+        3、经营进口化妆品的，则提供：报关单、入境货物检疫证明、商标注册证、逐级销售授权（保证可以从品牌方或出口方追溯到精彩商城）、进口非特化妆品备案或者进口特殊用途化妆品卫生许可批件。 备注：1）进口非特殊用途化妆品的备案或者进口特殊用途化妆品卫生许可批件必须是国家食药局出具的文件。\n
+        4、经营花露水的，则提供：农药产品生产许可证（或者农药生产批准证书）、农药登记证（或者农药临时登记证）、生产单位营业执照、检测报告、商标注册证、逐级销售授权。 备注1：生产有国家标准或者行业标准农药的，应取得农药生产许可证；生产尚未制定国家标准、行业标准但已有企业标准的农药的，需要取得农药生产批准证书。\n
+        5、经营牙膏等口腔护理类的，则提供：全国工业产品生产许可证、卫生许可证、生产单位营业执照、检测报告、商标注册证、逐级销售授权。\n
+        6、经营男士或女士用的卫生洗液、湿巾纸巾类的，则提供：消毒产品生产企业卫生许可证、生产单位营业执照、检测报告、商标注册证、逐级销售授权。\n
+        7、经营其他类的，则提供：生产单位营业执照、检测报告、商标注册证、逐级销售授权（保证可以从品牌方或生产方追溯到精彩商城）。如果是剃须刀，则还需提供《中国强制产品认证证书》（3C 认证）；如果是美容仪的，则还需提供医疗器械生产许可证（或备案）、医疗器械注册证。\n
+        8、关于检测报告，需符合如下条件： 近一年内所有单品检测报告复印件，该检测报告须由省级及以上检测机构出具，且需包含如下必要检测项（成品检测报告内容须包含品牌名称、产品名称和生产单位名称）：\n
+        （1）三项重金属：汞、铅、砷；\n
+        （2）五项微生物：菌落总数、粪大肠菌群、绿脓杆菌、金黄色葡萄球菌、霉菌与酵母菌总数（花露水、指甲油和烫发产品无需检测五项微生物）；\n
+        注：香水、花露水和指甲油产品需加检甲醇含量；\n
+            皂类：按照QB/T2485-2008《香皂》标准检测，无需检测三项重金属和五项微生物。\n
+        （3）产品清单（每一个品牌上传一份经营产品的清单）。\n
+        箱包奢侈品资质标准\n
+        1. 如商标处于“注册申请受理”状态(即“TM”商标)，注册申请时间须满六个月。\n
+        2. 开店公司注册资质材料要求：若经营进口商品，需提交该品牌近一年内中华人民共和国海关进口货物报关单复印件，如报关单中商品的商标名称可在商标局官网(http://sbj.saic.gov.cn/sbcx/ )上查询到该类别商品的注册信息，则还须提供商标注册证明或者商标受理通知书、完整授权证明；如查不到，则仅须提交该品牌近一年内中华人民共和国海关进口货物报关单复印件。‚若经营国产商品，则每个品牌须至少提供一份由第三方质检机构出具的一年内的检测报告。 成品检测报告内容须包含品牌名称、产品名称和各类产品对应的下述必检项目，\n
+        必要检测项要求包括：物理机械性能、标识标志、外观质量，有害物质限量。 注：有填充物的产品需加检“原料要求”，真皮类鞋服以及配件需加检“材质鉴定”，儿童皮鞋需加检“异味”； ‚物理机械性能包括成鞋耐折性能、外底耐磨性能、帮底剥离强度、鞋跟结合力、成型底鞋跟硬度、鞋帮拉出强度、内底纤维板屈挠指数等，具体项目请根据送检鞋类的执行标准进行检测。ƒ有害物质限量包括 pH值、游离甲醛、可分解有害芳香胺染料、可萃取的重金属，具体项目请根据送检鞋类适用的执行标准进行检测。\n
+        3.拉杆箱： 硬箱必检项包含外观质量、规格、标识标志和物理机械性能；其中物理机械性能必检项包含拉杆抗疲劳性能、行走性能、振荡冲击性能、耐冲击性能、硬箱箱体耐静压性能、硬箱箱面耐落球冲击性能、拉链平拉强力、箱铝口表面硬度、箱锁、五金配件耐腐蚀性； 软箱必检项包含外观质量、规格、标识标志（材质鉴别）和物理机械性能；其中物理机械性能必检项包含拉杆抗疲劳性能、行走性能、振荡冲击性能、耐冲击性能、拉链平拉强力、缝合强度、箱铝口表面硬度、箱（包）锁、五金配件耐腐蚀性、摩擦色牢度（干）、摩擦色牢度（湿）；\n
+        4.背提包： 必检项包含外观质量、规格、标识标志（材质鉴别）和物理机械性能；其中物理机械性能中必检项包含振荡冲击性能、缝合强度、配件、拉链耐用度、五金配件耐腐蚀性、摩擦色牢度（干）、摩擦色牢度（湿）；\n
+        5.票夹： 必检项包含标识标志、材质鉴别、外观质量和缝制要求、物理机械性能；其中物理机械性能中必检项包含配件质量、拉链耐用度、摩擦色牢度（干）、摩擦色牢度（湿）； 注： 1）皮革/皮草类箱包：必须检测甲醛含量、偶氮染料两项 2）拉杆箱检测依据QB/T 2155-2010标准执行，背提包检测依据QB/T 1333-2010标准执行，票夹检测依据QB/T 1619-2006标准执行。\n
+        6.申请鲜花速递/花卉仿真/绿植园艺类目\n
+        资质材料要求： 各种卡或券类：（此类不需提供质检报告）\n
+        1、面包/月饼/蛋糕类目卡类： －需提供品牌线下地址的房产证扫描件或/和房屋租赁合同的扫描件； －提货券至少适用5个及以上城市使用，需提供相应的门店地址、联系电话、及店面照片。\n
+        2、大闸蟹、卡类： －发行方营业执照经营范围中必须有水产品项； －经营水产品的养殖证明/进货渠道证明（如：授权）； －经营水产品的质量检测报告。\n
+        3、超市卡： －超市需提供5家及以上连锁门店的门店地址、联系电话、及店面照片。便利店需提供30家及以上连锁门店的门店地址、联系电话、及店面照片； －商场/百货旗下至少有50个品牌入驻，需提供至少50个品牌的证明材料或授权书； －需提供品牌线下地址的房产证扫描件或/和房屋租赁合同的扫描件。\n
+        母婴用品资质标准\n
+        1、奶粉/营养辅食同食品特殊资质要求；\n
+        2、经营奶粉的卖家营业执照中须具备“乳制品”的经营范围，且须结合产品类别查看是否可经营婴儿配方奶粉，生产企业生产许可证也应包含相应类别。\n
+        3.儿童自行车、儿童三轮车、儿童推车、婴儿学步车、玩具自行车、电动童车、其他玩具车辆须具备《强制性产品认证证书（CCC 认证）》（针对产品型号）。 其他说明： 3C认证详情请查询http://cccpub.cnca.cn/service-public/#\n
+        4.电玩具、塑胶玩具、金属玩具、弹射玩具、娃娃玩具须提供《强制性产品认证证书（CCC认证）》（针对产品型号）；\n
+        5.电子琴等音视频设备类须提供《强制性产品认证证书（CCC 认证）》（针对产品型号）\n
+        6.电鸣乐器，需提供质检报告。\n
+        其他说明： 3C认证详情请查询http://cccpub.cnca.cn/service-public/#\n
+        7.经营用于包装食品的材料、容器、牙胶、安抚类产品等需提供生产企业的《工业产品生产许可证》（如奶瓶等产品）；\n
+        1、暖奶/消毒器产品一般需提供《强制性产品认证证书（CCC 认证）》（针对产品型号）；\n
+        2、 消毒器类产品须提供生产企业的《消毒产品生产企业卫生许可证》。\n
+        其他说明： 3C认证详情请查询http://cccpub.cnca.cn/service-public/#\n
+        7.尿裤、尿布（垫、纸）、隔尿垫、湿巾（纸）、卫生湿巾（纸）、纸巾（纸）、卫生棉（棒、签、球）等须提供生产企业的《消毒产品生产企业卫生许可证》。\n
+        8.童装/孕妇装：成分含量、GB18401全套、标识标志、外观质量； 2、9.婴儿服：成分含量、GB18401全套、标识标志、外观质量、耐唾液色牢度；\n
+        10.婴儿鞋：异味、标识标志、外观质量、甲醛、可分解芳香胺染料、耐摩擦色牢度。\n
+    </string>
+    <string name="business_apply_intro_3">
+        食品饮料资质标准\n
+        食品商品商家： 《食品卫生许可证》或《食品流通许可证》复印件； 《食品生产许可证》复印件； 如系进口食品还须商品出入境检验检疫合格证明、《卫生证书》复印件以及报关单； 如系酒类销售还须提供《酒类零售许可证》或《酒类流通备案登记表》复印件； 如系蔬果、生鲜商品还须提供产地证明及卫生检疫合格证明复印件；\n
+        一、若经营国产食品\n
+        A. 卖家为生产厂商的：\n
+        1、卖家持有的《食品生产许可证》或《全国工业产品生产许可证》（生产范围应与实际食品一致）复印件；\n
+        2、卖家持有的《食品卫生许可证》复印件（若商家所在地区以上两证已合并为一个证件，只需提供《食品生产许可证》）；\n
+        3、卖家若经营酒类，还需提供卖家持有的《酒类流通备案登记表》（或《酒类零售许可证》、《酒类批发许可证》、《酒类产销许可证》）复印件\n
+        B. 卖家非生产厂商（品牌系委托他人生产）：\n
+        1、卖家持有的《食品流通许可证》复印件；\n
+        2、食品生产厂商持有的《食品生产许可证》（生产范围应与实际食品一致）复印件以及营业执照复印件；\n
+        3、食品生产厂商持有的《食品卫生许可证》复印件以及营业执照复印件（若食品生产厂商所在地区以上两证已合并为一个证件，只需提供《食品生产许可证》）；\n
+        4、如果涉及委托加工的，则提供品牌商给生产厂商的《委托加工协议》复印件，以及生产单位的营业执照复印件、《食品生产许可证》或《全国工业产品生产许可证》复印件。\n
+        5、卖家若经营酒类，还需提供商家持有的《酒类流通备案登记表》（或《酒类零售许可证》、《酒类批发许可证》、《酒类产销许可证》。\n
+        6、涉及到中间商授权的：提供每个中间商的营业执照、食品流通许可；如经营酒类，提供每个中间商的营业执照、食品流通许可、酒类流通备案。\n
+        二、若经营进口食品\n
+        1、卖家持有的《食品流通许可证》复印件；\n
+        2、近一年内的中华人民共和国进口货物报关单复印件（进口红酒和洋酒（预调鸡尾酒除外）可放宽至近两年）；\n
+        3、近一年内的商品出入境检验检疫合格证明或卫生证书复印件（进口红酒和洋酒（预调鸡尾酒除外）可放宽至近两年）且报关单和卫生证书属于同一批次（合同号一致）；\n
+        4、卖家若经营酒类，还需提供商家持有的《酒类流通备案登记表》（或《酒类零售许可证》、《酒类批发许可证》、《酒类产销许可证》）复印件。\n
+        5、涉及到中间商授权的：提供每个中间商的营业执照、食品流通许可；如经营酒类，提供每个中间商的营业执照、食品流通许可、酒类流通备案。进口产品授权追溯到海外，需提供国外授权，如无国外授权，提供原产地证明也可以。\n
+        三、若经营生鲜食品\n
+        A. 国产生鲜蔬果： 近一个批次的农产品卫生检疫合格证明（如检测报告、农药残留物检测报告）。\n
+        B. 进口生鲜蔬果：\n
+        1、近一个月的中华人民共和国进口货物报关单复印件；\n
+        2、近一个月的商品出入境检验检疫合格证明或卫生证书复印件。\n
+        C. 若卖家为鲜活水产的礼券发行方：\n
+        1、礼券发行方及授权供应商的营业执照经营范围中必须有水产品项；\n
+        2、礼券发行方在商务部备案发行单用途预付款的备案证明；\n
+        3、经营水产品的养殖证明/进货渠道证明（如：授权）；\n
+        4、经营水产品的质量检测报告；\n
+        5、经营大闸蟹卡券的特殊要求：\n
+        ①商标权人/礼券发行方持有的《水域滩涂养殖证》（水域面积需大于20亩）或10家以上连锁门店的证明；\n
+        ②商标权人/礼券发行方持有的阳澄湖大闸蟹原产地域保护产品专营证书。\n
+        D.涉及到中间商授权的： 进口产品授权追溯到海外，需提供国外授权，如无国外授权，提供原产地证明也可以。\n
+        四、其他资质证件\n
+        1、无公害农产品认证证书适用于声称获得无公害农产品认证的农产品；\n
+        2、农产品地理标志登记证书适用于标记农产品产地的农产品；\n
+        3、绿色食品认证证书适用于声称获得绿色食品认证的食品；\n
+        4、有机食品认证证书适用于声称获得有机食品认证的食品，有机转换证书无效（声称有机的进口食品，需要提供中国有机认证机构颁发的有机认证）；\n
+        5、 如果产品质检采用有机或者绿色产品标准进行检验，无法提供有机或者绿色食品认证或有机认证，需提供不在网页宣称产品是绿色或者有机产品的声明。\n
+        营养保健资质标准\n
+        1.若经营保健食品要求如下： 四川、深圳、河南经营保健品，营业执照经营范围不能表述为“保健品”。若地方政策有其他规定，暂不颁发此证的，则需权威机构出具的相关证明。\n
+        特别注意：国家食品药品监督管理局规定，破壁灵芝孢子粉不能作为普通食品原料，作为原料生产加工保健食品的，必须取得保健食品批准批准文号（即必须申请蓝帽）。\n
+        A. 卖家为生产厂商： 国家保健食品：\n
+        1、营业执照中应有生产经营保健品或预包装经营范围；\n
+        2、卖家持有的《保健食品生产企业卫生许可证》或《保健食品GMP证书》复印件；\n
+        3、 卖家持有的所有单品《保健食品批准证书》（即健字号批件）及其附件（产品说明书）复印件；产品品牌需与《保健食品批准证书》记载一致；\n
+        4、近一年内所有单品检测报告复印件（该检测报告要求是第三方权威机构出具）。\n
+        进口保健食品：\n
+        1、需提供《进口保健食品批准证书》；\n
+        2、销售产品相应的进口报关单及检验检疫卫生证书；\n
+        3、经营者《食品流通许可证》；\n
+        4、营业执照中应含有经营保健食品范围；\n
+        B. 卖家为非生产厂商（品牌系委托他人生产）： 国产保健食品：\n
+        1、卖家持有的《保健食品经营企业卫生许可证》或《食品流通许可证》复印件；如企业营业执照范围内包括保健品，《食品流通许可证》经营范围包括食品类即可通过；\n
+        2、生产厂商的企业营业执照副本复印件（营业执照中应有生产经营保健品或预包装的经营范围）；\n
+        3、生产厂商持有的《保健食品生产企业卫生许可证》或《保健食品GMP证书》复印件；\n
+        4、品牌商持有的所有单品《保健食品批准证书》（即健字号批件）及其附件（产品说明书）复印件；品牌商委托生产企业加工的，提供委托加工授权书（如《保健食品批准证书》中已记载的无需提供）；\n
+        5、品牌商与生产厂商的《委托加工协议》复印件；\n
+        6、近一年内所有单品检测报告复印件（该检测报告要求是第三方权威机构出具）。\n
+        进口保健食品：\n
+        1、需提供《进口保健食品批准证书》；\n
+        2、销售产品相应的进口报关单及检验检疫卫生证书； 其他说明： 如果商家反馈《保健食品批准证书》过期，正在延期，商家需提供“保健食品再注册受理通知书”，其中要写有“在产品再注册审查期间，原保健食品批准证书继续有效”的字样内容。\n
+        二、若经营膳食营养食品（无蓝帽食品类） 国产膳食营养食品：\n
+        A. 卖家为生产厂商：\n
+        1、卖家持有的《保健食品生产企业卫生许可证》或《保健食品GMP证书》或《全国工业产品生产许可证》或《食品品生产许可证》复印件（根据经营产品范围提供对应证件）；\n
+        2、产品中涉及新原料或食品添加剂或仅可在保健品中可使用的原料，需提供国务院卫生部门出具的安全评估报告/审批文件；\n
+        3、产品生产执行标准非国标或地方卫生部门执行标准的，需提供经省级卫生行政部门备案的企业标准的文件证明；\n
+        4、近一年内所有单品检测报告复印件（该检测报告要求是第三方权威机构出具）。\n
+        B. 卖家为非生产厂商（品牌系委托他人生产）：\n
+        1、卖家持有的《保健食品经营企业卫生许可证》或《食品流通许可证》复印件；\n
+        2、生产厂商的企业营业执照副本复印件；\n
+        3、生产厂商持有的《保健食品生产企业卫生许可证》或《保健食品GMP证书》或《全国工业产品生产许可证》或《食品品生产许可证》复印件（根据经营产品范围提供对应证件）；\n
+        4、产品中涉及新原料或食品添加剂或仅可在保健品中可使用的原料，需提供国务院卫生部门出具的安全评估报告/审批文件；\n
+        5、产品生产执行标准非国标或地方卫生部门执行标准的，需提供经省级卫生行政部门备案的企业标准的文件证明；\n
+        6、近一年内所有单品检测报告复印件（该检测报告要求是第三方权威机构出具）；\n
+        7、品牌商与生产厂商的《委托加工协议》复印件；\n
+        8、若委托加工产品为《全国工业产品生产许可证》或《食品品生产许可证》发证范围的产品，需提供质监局出具的《委托加工备案登记表》复印件。\n
+        进口膳食营养食品:\n
+        1、经营者《食品流通许可证》；\n
+        2、销售产品相应的近一年进口报关单及检验检疫卫生证书。\n
+        一、公司类型属于生产厂商： 需提供《全国工业产品生产许可证》或《药品生产许可证》或《药品GMP证书》复印件（根据经营产品范围提供对应证件）；\n
+        二、公司类型属于非生产厂商：\n
+        1、《食品卫生许可证》或《食品流通许可证》\n
+        2、生产厂商的企业营业执照副本复印件。\n
+        3、生产厂商持有的《全国工业产品生产许可证》或《药品生产许可证》或《药品GMP证书》复印件（根据经营产品范围提供对应证件）\n
+        4、若品牌商与生产厂家非同一家，需要委托加工协议 进口传统滋补：经营者《食品流通许可证》；销售产品相应的近一年进口报关单及检验检疫卫生证书。\n
+        家纺：\n
+        一、若经营进口商品，需提交该品牌近一年内中华人民共和国海关进口货物报关单复印件，如报关单中商品的商标名称可在商标局官网(http://sbj.saic.gov.cn/sbcx/ )上查询到该类别商品的注册信息，则还须提供商标注册证明或者商标受理通知书、完整授权证明；如查不到，则仅须提交该品牌近一年内中华人民共和国海关进口货物报关单复印件。\n
+        二、若经营国产商品，则每个品牌须至少提供一份由第三方质检机构出具的一年内的检测报告。成品检测报告内容须包含品牌名称、产品名称和各类产品对应的下述必检项目，必要检测项要求如下：\n
+        1、床单、被罩、几件套、床罩、被褥、毛巾浴巾、毯子、窗帘（遮阳布除外）：成分含量、GB18401-2010全套、标识标志、外观质量、水洗尺寸变化率；\n
+        2、除了窗帘及定制类产品，其他均需提供成品质检\n
+        3、床单、被罩、床笠、床品套件、枕套提供一份成品质检，若经营其他类目按分类提供质检报告\n
+        4、羽绒被芯：成分含量、标识标志、含绒量、充绒量、原料要求；\n
+        5、 棉被/蚕丝被芯：成分含量、标识标志、原料要求。\n
+        6、电热毯：质检报告，全国工业生产许可证。 注： 1） GB18401全套包括：耐水色牢度、耐汗渍色牢度、耐干摩擦色牢度、甲醛、PH值、异味、可分解芳香胺染料； 2）有填充物的产品需加检“原料要求”，真皮类鞋服以及配件需加检“材质鉴定”。\n
+        珠宝首饰\n
+        1、 黄金、钻石、天然玉石、翡翠、珍珠、琥珀、铂金、珊瑚、其他宝石/半宝石或贵金属等： 每个材质类目需要至少提供1款由省级质监局出具的相关检测报告，必要检测项要求如下：商标、送检单位、生产单位以及相应商品各成分含量鉴定结论；\n
+        2、 纯银饰品： 每个品类至少提供1款由省级质监局出具的相关检测报告（例如：手镯、项链、耳坠等），且检测报告必须包含银含量检测项；\n
+        3、 天然水晶（例如：玛瑙、紫水晶、粉晶、发晶、碧玺、石榴石等）： 若经营涉及以上产品，每个材质类目需要至少提供1款由省级质监局出具的相关检测报告，必要检测项要求如下：商标、送检单位、生产单位以及相应商品各成分含量鉴定结论；\n
+        4、 带有施华洛世奇元素的水晶： 需提供施华洛世奇出具的相关元素使用授权。\n
+        如果经营“时尚饰品”及“天然木饰”可不必索取产品检验报告。\n
+    </string>
+    <string name="show_qr_code_intro">
+        ※该二维码仅限指定商户扫码
+    </string>
+    <string name="connect_phone_number_title">联系电话：</string>
+    <string name="business_order_total">总计： %s</string>
+    <string name="write_off_success_tips">恭喜您，核销成功</string>
+    <string name="contact_customer_service">联系客服</string>
+
+    <string name="wechat_share">分享到微信</string>
+    <string name="wechat_friend_circle_share">分享到微信朋友圈</string>
+
+    <string name="commission_and_unit">佣金(元)</string>
+    <string name="vacancies_and_unit">余额(元)</string>
+    <string name="back_value">返￥%s</string>
+    <string name="home_back_value">返%s元</string>
+    <string name="stock_residue">库存剩余：%s</string>
+
+    <string name="setting_login_password_title">登录密码</string>
+    <string name="setting_pay_password_title">支付密码</string>
+    <string name="my_wallet">我的钱包</string>
+    <string name="please_auth_tips">请认证您的真实身份</string>
+    <string name="have_auth_tips">已认证您的真实身份</string>
+    <string name="have_auth">已认证</string>
+    <string name="auth_tips">为保护账户安全，需要进行安全认证，我们承诺保护您的信息安全</string>
+    <string name="personal_info">个人信息</string>
+    <string name="bank_card_info">银行卡信息</string>
+    <string name="perfect_info">完善身份信息</string>
+    <string name="wait_for_perfect">待完善</string>
+    <string name="have_perfect">已完善</string>
+    <string name="your_id_card">您的二代身份证</string>
+    <string name="real_name_title">真实姓名：</string>
+    <string name="id_card_num">身份证号码：</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_info">订单信息</string>
+    <string name="default_title">默认</string>
+    <string name="add_bank_card_take_photo">拍照添卡</string>
+    <string name="confirm_bind">确认绑定</string>
+    <string name="commission_exchange">佣金兑换</string>
+    <string name="commission_exchange_tips">操作后，数值将转入余额账户，此操作不可逆转</string>
+    <string name="withdraw_exchange_tips">余额提现需为整百的金额</string>
+    <string name="current_commission_value">当前佣金金额：</string>
+    <string name="commission_value">￥%s</string>
+    <string name="commission_exchange_hint_text">请输入需兑换金额</string>
+    <string name="confirm_exchange">确认兑换</string>
+    <string name="valances_withdraw">余额提现</string>
+    <string name="confirm_withdraw">确认提现</string>
+    <string name="business_search_hint_text">请输入商家名称</string>
+    <string name="home_find">发现</string>
+    <string name="home_select">优选好物</string>
+    <string name="city_service">同城服务</string>
+    <string name="high_quality_low_price">高品质特价</string>
+    <string name="organic_farm_product">有机农产品</string>
+    <string name="farm_product">农副产品</string>
+    <string name="good_shop_recommend">好店推荐</string>
+    <string name="quality_select_product">精选商品</string>
+    <string name="home_recommend_for_you">为您推荐</string>
+    <string name="rd_address">地址派送</string>
+    <string name="rd_self_mention">自提点派送</string>
+    <string name="store_operation">门店运营</string>
+    <string name="store_verification">收款/核销</string>
+    <string name="store_check_account">对账</string>
+    <string name="store_order">订单</string>
+    <string name="store_product">商品</string>
+    <string name="store_info">门店信息</string>
+    <string name="store_des">给出详细门店信息，用户更精准找店</string>
+    <string name="store_photos">门店相册</string>
+    <string name="store_photos_des">优质图片吸引用户访问，增加门店曝光</string>
+    <string name="store_photos_edit">门店相册信息编辑</string>
+    <string name="my_publish">我的发布</string>
+    <string name="shop">店铺</string>
+    <string name="quality_shop_tips">店铺热销、好物精选</string>
+    <string name="found_publish_content_hint">分享你的感受，有机会被精选推荐至首页哦～</string>
+    <string name="upload_more">上传更多</string>
+    <string name="found_comment_num">评论（%s）</string>
+    <string name="found_comment_hint">说点什么吧...</string>
+    <string name="find_good_shop">发现好店</string>
+    <string name="have_uncheck">未核销</string>
+    <string name="have_checked">已核销</string>
+    <string name="add_product">添加商品</string>
+    <string name="checking">审核中</string>
+    <string name="upper_shelf">已上架</string>
+    <string name="undercarriage">已下架</string>
+    <string name="product_manager">商品管理</string>
+    <string name="click_to_skip">点击跳过</string>
+    <string name="splash_loading">广告加载中...</string>
+    <string name="shop_allowed">商家入驻</string>
+    <string name="fragment_shop_apply_name_hint">请填写商家机构名称</string>
+    <string name="fragment_corporate_representative_hint">请填写法人代表姓名</string>
+    <string name="fragment_current_account_holder_name_hint">请填写使用人姓名</string>
+    <string name="fragment_shop_organ_phone_hint">请填写联系电话</string>
+    <string name="fragment_shop_organ_address_hint">请选择所在地址</string>
+    <string name="fragment_detail_address_hint">请填写详细地址</string>
+    <string name="fragment_business_hours_hint">请填写营业时间</string>
+    <string name="fragment_shop_organ_name">商家机构名称</string>
+    <string name="fragment_corporate_representative">法人代表</string>
+    <string name="fragment_shop_organ_phone">商家机构联系电话</string>
+    <string name="fragment_current_account_holder_name">当前账号使用人姓名</string>
+    <string name="fragment_shop_organ_address">商家机构所在地</string>
+    <string name="fragment_detail_address">详细地址</string>
+    <string name="fragment_load_business_license">上传营业执照</string>
+    <string name="fragment_upload_shop_images">上传店招图</string>
+    <string name="business_hours">营业时间</string>
+    <string name="commit_examine">提交审核</string>
+    <string name="customer_info">顾客信息</string>
+    <string name="product_name">商品名称</string>
+    <string name="sale_value">售价</string>
+    <string name="number">数量</string>
+    <string name="effective_time">有效期</string>
+    <string name="verification_right_now">已与顾客确认，立即核销</string>
+    <string name="store_order_have_verification">该笔订单已被核销</string>
+    <string name="store_order_verification_fail">该笔订单核销失败</string>
+    <string name="store_order_have_verification_tips">该笔订单已被核销,请确认订单信息</string>
+    <string name="verification_fail_title">收款/核销</string>
+    <string name="verification_success">核销成功</string>
+    <string name="verification_fail">核销失败</string>
+    <string name="verification_cancel">取消核销</string>
+    <string name="verification_again">重新核销</string>
+    <string name="verification_cancel_tip">是否取消核销该笔订单</string>
+    <string name="verification_continue">继续核销</string>
+    <string name="verification_success_tips">该笔订单已核销成功</string>
+    <string name="store_all_income">商家总收入（元）</string>
+    <string name="store_verification_income_title">已核销（实收）：</string>
+    <string name="store_no_verification_income_title">未核销：</string>
+    <string name="order_num">%s 笔</string>
+    <string name="dialog_unchecked_intro_title">未核销收入说明</string>
+    <string name="dialog_unchecked_intro_content">未核销收入，将于商品核销完成后转入余额</string>
+    <string name="store_info_edit_title">门店相册信息编辑</string>
+    <string name="my_accept_orders">我的接单</string>
+    <string name="check_detail">查看详情</string>
+    <string name="title">标题：</string>
+    <string name="desc">描述：</string>
+    <string name="task_effective_time">任务有效期限：</string>
+    <string name="is_platform_assure">是否平台担保</string>
+    <string name="platform_assure">平台担保</string>
+    <string name="salary_level">薪资水平：</string>
+    <string name="contact">联系人：</string>
+    <string name="task_mobile">手机号：</string>
+    <string name="area">区域：</string>
+    <string name="please_input_title_hint">请填写标题</string>
+    <string name="please_input_desc_hint">请填写工作描述</string>
+    <string name="please_input_task_effective_time_hint">请选择任务有效期限</string>
+    <string name="please_input_salary_level_hint">请填写佣金</string>
+    <string name="please_input_contact_hint">请填写联系人</string>
+    <string name="please_input_mobile_hint">请填写手机号</string>
+    <string name="please_input_select_area_hint">请选择区域</string>
+    <string name="please_input_detail_address_hint">请填写详细工作地址</string>
+    <string name="upload_images">上传图片</string>
+    <string name="task_publish_intro">喔啦共享向您提供网络控件技术服务，发布信息请遵守国家法律法规。</string>
+    <string name="commit_and_publish">提交审核并发布</string>
+
+    <string name="know">知道了</string>
+    <string name="task_order_finished">订单已完成</string>
+    <string name="task_accept_order">我要承接</string>
+    <string name="task_accept_notice">该任务已被接取，请保持电话畅通，等待接取者联系。</string>
+    <string name="cart_uneffective_products">失效宝贝</string>
+    <string name="product_undercarriage">商品已下架</string>
+    <string name="pop_self_mention_point_title">自提点</string>
+    <string name="confirm_order_notice_tip">支付完成后，将获得返利￥%s</string>
+    <string name="add_new_address">新建地址</string>
+    <string name="edit_address">编辑地址</string>
+    <string name="pay_left_time">支付剩余时间 %s</string>
+    <string name="pay_total_product_num">共%s件商品</string>
+    <string name="other_pay_type">其他支付方式</string>
+    <string name="pop_confirm_pay">确定支付</string>
+    <string name="is_cancel_pay_tips">确认要取消付款？</string>
+    <string name="is_cancel_pay_message_start">您的订单在</string>
+    <string name="is_cancel_pay_message_end">内未支付将被取消，请尽快完成支付</string>
+    <string name="continue_pay">继续支付</string>
+    <string name="confirm_cancel">确认取消</string>
+    <string name="pay_value">付款：￥%s</string>
+    <string name="back_home">返回首页</string>
+    <string name="pay_result">支付结果</string>
+    <string name="stroll_around_again">再逛逛</string>
+    <string name="business_hours_title">营业时间：</string>
+    <string name="store_detail_tips">为了保障您的权益，建议使用喔啦共享线上支付。若使用其他支付方式导致纠纷，本平台不承担任何责任，感谢您的理解和支持</string>
+    <string name="store_selling">本店在售</string>
+    <string name="pop_default_title">默认</string>
+    <string name="supplier_title">供应商：</string>
+    <string name="select_title">选择：</string>
+    <string name="product_comment_title">宝贝评价</string>
+    <string name="product_comment_user">用户：ID%s</string>
+    <string name="go_open">去开启</string>
+    <string name="open_message_permission_tips">系统检测您未开启消息通知，将无法收到消息提示</string>
+    <string name="check_qr_code">核销二维码</string>
+    <string name="check_logistics">查看物流</string>
+    <string name="product_num">×%s</string>
+    <string name="please_choose_pay_type">请选择支付方式</string>
+    <string name="comment_right_now">立即评价</string>
+    <string name="commit_auth">提交认证</string>
+    <string name="remind">温馨提醒</string>
+    <string name="pop_can_withdraw_value_title">可提现金余额</string>
+    <string name="fragment_checking_text">入住申请已提交，请等待管理员审核！</string>
+    <string name="fragment_checking_modify_text">修改申请已提交，请等待管理员审核！</string>
+    <string name="self_mention_point_intro_title">货物自提点说明</string>
+    <string name="self_mention_point_intro_content">为顾客提供快递暂存服务，顾客将到店领取快递</string>
+
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="select_store_address_title">选择商家地址</string>
+    <string name="undercarriage_product">下架商品</string>
+    <string name="undercarriage_action">下架</string>
+    <string name="put_on_action">上架</string>
+    <string name="put_on_product">上架商品</string>
+    <string name="delete_product">删除商品</string>
+    <string name="no_pass_tips">审核未通过</string>
+    <string name="store_delete_product_title">商品删除</string>
+    <string name="store_delete_product_message">是否确认删除该商品</string>
+    <string name="store_undercarriage_product_title">商品下架</string>
+    <string name="store_undercarriage_product_message">是否确认下架该商品</string>
+    <string name="store_put_on_product_title">商品上架</string>
+    <string name="store_put_on_product_message">是否确认上架该商品</string>
+
+    <string name="store_product_name_title">商品标题：</string>
+    <string name="store_product_desc_title">商品描述：</string>
+    <string name="store_product_special_price_title">售价：</string>
+    <string name="store_product_price_title">原价%s：</string>
+    <string name="store_product_num_title">数量：</string>
+    <string name="store_product_upload_image_title">上传商品图：</string>
+    <string name="store_product_details_title">商品详情：</string>
+    <string name="store_product_pass_and_up_title">审核通过后上架商品：</string>
+    <string name="store_product_name_hint">请填写商品标题</string>
+    <string name="store_product_desc_hint">请填写商品描述</string>
+    <string name="store_product_special_price_hint">请填写现价</string>
+    <string name="store_product_price_hint">请填写原价</string>
+    <string name="store_product_num_hint">请填写商品数量</string>
+
+    <string name="input_product_name_tips">请输入商品标题</string>
+    <string name="input_product_desc_tips">请输入商品描述</string>
+    <string name="input_product_special_price_tips">请输入商品售价</string>
+    <string name="input_product_price_tips">请输入商品原价</string>
+    <string name="input_product_num_tips">请输入商品数量</string>
+    <string name="input_product_images_tips">请选择商品图片</string>
+    <string name="input_product_details_tips">请选择商品详情图片</string>
+    <string name="add_success">添加成功</string>
+    <string name="store_product_edit_notice">商品需下架后，方可修改商品信息</string>
+
+
+    <string name="product_details_sale_num">已售%s件</string>
+    <string name="home_search_hint">请输入搜索关键词</string>
+    <string name="home_to_product_dialog_title">检测到商品</string>
+    <string name="home_to_product_dialog_content">是否查看该商品</string>
+    <string name="publish_success">发布成功</string>
+    <string name="delete_store_product_tips">无法删除上架中的商品</string>
+    <string name="pop_pay_order">支付订单</string>
+    <string name="uneffective_product_item_click_tips">该商品已下架</string>
+    <string name="please_choose_sku">请选择规格</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/caidao213-ola-master-ola.iml" filepath="$PROJECT_DIR$/.idea/modules/caidao213-ola-master-ola.iml" group="ola" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zxing-simplify/com.github.shenyuanqing.zxing-zxing-simplify.iml" filepath="$PROJECT_DIR$/.idea/modules/zxing-simplify/com.github.shenyuanqing.zxing-zxing-simplify.iml" group="ola/zxing-simplify" />
+      <module fileurl="file://$PROJECT_DIR$/ola.iml" filepath="$PROJECT_DIR$/ola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ola-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ola-app.iml" group="ola/app" />
+      <module fileurl="file://$PROJECT_DIR$/zxing-simplify/zxing-simplify.iml" filepath="$PROJECT_DIR$/zxing-simplify/zxing-simplify.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll_select_first_item"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_tran_corner_8"
+        >
+        <ImageView
+            android:id="@+id/iv_product"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/tv_watch_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_select_first_flag"
+            android:text="测试"
+            android:textColor="@color/white"
+            android:drawablePadding="@dimen/dp_2"
+            android:drawableLeft="@mipmap/icon_watch_white"
+            android:textSize="@dimen/textsize_12"
+            android:paddingTop="@dimen/dp_2"
+            android:paddingBottom="@dimen/dp_2"
+            android:paddingLeft="@dimen/dp_8"
+            android:paddingRight="@dimen/dp_8"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:textSize="@dimen/textsize_14"
+        android:textColor="@color/COLOR_FF333333"
+        android:lines="2"
+        android:ellipsize="end"
+        android:text="测试圣诞节腐蚀毒粉水电费水电开发水电开发收到收到反馈收到"
+        />
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg_container"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/view_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <com.kasa.ola.widget.LoadMoreRecyclerView
+            android:id="@+id/sku_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/btn_confirm"
+                android:layout_width="334dp"
+                android:layout_height="45dp"
+                android:background="@drawable/bg_rectangle_deep_blue_corner"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/confirm"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

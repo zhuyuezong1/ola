@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_rectangle_white_cornor_8"
+    android:padding="@dimen/dp_8"
+    android:layout_marginLeft="@dimen/dp_12"
+    android:layout_marginRight="@dimen/dp_12"
+    android:layout_marginTop="@dimen/dp_4"
+    android:layout_marginBottom="@dimen/dp_4"
+    android:id="@+id/ll_self_mention_point_pop"
+    >
+
+    <ImageView
+        android:id="@+id/iv_self_mention_point"
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_self_mention_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_8"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商品"
+                android:textSize="@dimen/textsize_16"
+                android:textColor="@color/COLOR_FF333333"
+                android:textStyle="bold"
+                android:lines="1"
+                android:ellipsize="end"
+                />
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-11-26 11:26:26"
+                android:textSize="@dimen/textsize_13"
+                android:textColor="@color/COLOR_FF999999"
+                android:lines="2"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/dp_3"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

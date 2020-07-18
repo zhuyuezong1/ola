@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:id="@+id/ll_product"
+    >
+
+    <ImageView
+        android:id="@+id/iv_check"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginRight="@dimen/dp_14"
+        android:background="@mipmap/uncheck_icon" />
+
+    <ImageView
+        android:id="@+id/iv_product"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="商品名字：收到货富士康的方式机顶盒富送到发送到发顺丰"
+            android:textColor="@color/COLOR_FF333333"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize_14"
+            />
+        <TextView
+            android:id="@+id/tv_product_format"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_2"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="商品规格：世纪东方卡时间段房间爱上对方"
+            android:textColor="@color/COLOR_FF999999"
+            android:textSize="@dimen/textsize_13"
+            />
+        <!--<TextView
+            android:id="@+id/is_have_coupon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不支持优惠券"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10"
+            android:textSize="@dimen/textsize_10"
+            android:background="@drawable/bg_rectangle_no_coupon"
+            />-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_2"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/tv_unit_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥12"
+                    android:textSize="@dimen/textsize_16"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/red"
+                    />
+                <TextView
+                    android:id="@+id/tv_back_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="返xxx元"
+                    android:textSize="@dimen/textsize_12"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="@dimen/dp_1"
+                    />
+            </LinearLayout>
+            <!--<com.kasa.ola.widget.AmountView
+                android:id="@+id/amount_view"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left"
+                android:layout_alignParentRight="true"
+                app:tvTextSize="13sp"
+                app:btnTextSize="13sp"
+                app:btnWidth="30dp"
+                app:tvWidth="45dp"
+                />-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_centerVertical="true"
+                android:layout_gravity="left"
+                android:background="@mipmap/bg_add_and_reduce"
+                android:layout_alignParentRight="true"
+                >
+
+                <TextView
+                    android:id="@+id/btn_reduce"
+                    android:layout_width="29dp"
+                    android:layout_height="match_parent"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:text="-"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/COLOR_FFE9E9E9"/>
+
+                <TextView
+                    android:id="@+id/tv_num"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:includeFontPadding="false"
+                    android:layout_marginLeft="1dp"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="14dp"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/btn_reduce"
+                    android:layout_toLeftOf="@+id/btn_add"
+                    android:textStyle="bold"
+                    android:textColor="@color/COLOR_FF333333"/>
+
+                <TextView
+                    android:id="@+id/btn_add"
+                    android:layout_width="29dp"
+                    android:layout_height="match_parent"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:textColor="@color/COLOR_FF666666"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

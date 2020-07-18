@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sl_refresh"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/COLOR_FFF2F2F2"
+        >
+
+        <include
+            layout="@layout/view_actionbar"
+            />
+        <LinearLayout
+            android:id="@+id/ll_message_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/COLOR_FFFFF0F0"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_horn"
+                android:layout_marginLeft="@dimen/dp_16"
+                android:layout_gravity="center_vertical"
+                />
+
+            <com.kasa.ola.widget.AlwaysMarqueeTextView
+                android:id="@+id/tv_notice_tips"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:layout_marginLeft="@dimen/dp_13"
+                android:layout_marginRight="@dimen/dp_13"
+                android:paddingTop="@dimen/dp_12"
+                android:paddingBottom="@dimen/dp_12"
+                android:textSize="@dimen/textsize_14"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                />
+            <TextView
+                android:id="@+id/tv_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/go_open"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_14"
+                android:layout_gravity="center_vertical"
+                android:paddingTop="@dimen/dp_2"
+                android:paddingBottom="@dimen/dp_2"
+                android:paddingLeft="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_8"
+                android:layout_marginRight="@dimen/dp_16"
+                android:background="@drawable/bg_rectangle_red_corner"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.kasa.ola.widget.LoadMoreRecyclerView
+                android:id="@+id/rv_messages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tv_no_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_messages"
+                android:textColor="@color/COLOR_FF555555"
+                android:textSize="@dimen/textsize_15"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:drawableTop="@mipmap/nomessage"
+                android:visibility="gone"
+                />
+            <com.kasa.ola.widget.LoadingView
+                android:id="@+id/loading_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

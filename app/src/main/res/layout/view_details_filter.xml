@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_filter_head"
+    android:background="@drawable/shape_top_corner_white"
+    android:layout_marginLeft="@dimen/dp_12"
+    android:layout_marginRight="@dimen/dp_12"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_detail"
+        android:layout_marginLeft="@dimen/dp_12"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:textColor="@color/COLOR_FF333333"
+        android:textSize="@dimen/textsize_16"
+        android:textStyle="bold"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dp_12"
+        android:paddingRight="@dimen/dp_12"
+        android:background="@color/COLOR_FFF8F8F8"
+        >
+        <RadioGroup
+            android:id="@+id/rg_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_9"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/dp_9"
+            >
+            <RadioButton
+                android:id="@+id/rb_commission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/commission_details"
+                android:button="@null"
+                android:background="@drawable/selector_filter"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@drawable/selector_filter_text"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingBottom="@dimen/dp_6"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                android:checked="true"
+                />
+            <RadioButton
+                android:id="@+id/rb_valance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:text="@string/vacancies_record"
+                android:button="@null"
+                android:background="@drawable/selector_filter"
+                android:textSize="@dimen/textsize_14"
+                android:textColor="@drawable/selector_filter_text"
+                android:paddingTop="@dimen/dp_6"
+                android:paddingBottom="@dimen/dp_6"
+                android:paddingLeft="@dimen/dp_16"
+                android:paddingRight="@dimen/dp_16"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/arrow_down"
+            android:drawablePadding="@dimen/dp_4"
+            android:gravity="center_vertical"
+            android:text="@string/filter"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/COLOR_FF333333"
+            android:textSize="@dimen/textsize_14" />
+    </RelativeLayout>
+
+
+</LinearLayout>

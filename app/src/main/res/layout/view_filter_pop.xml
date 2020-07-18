@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/view_date_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="10dp"
+            android:text="日期"
+            android:textColor="@color/COLOR_FF1A1A1A"
+            android:textSize="14sp" />
+
+        <com.kasa.ola.widget.AutoLineLayout
+            android:id="@+id/view_date_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            app:center_in_row="true"
+            app:row_height="36dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:text="时间"
+        android:textColor="@color/COLOR_FF1A1A1A"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:layout_width="139dp"
+            android:layout_height="27dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/bg_rectangle_filter_date"
+            android:gravity="center"
+            android:hint="开始时间"
+            android:textColor="@color/COLOR_FF1A1A1A"
+            android:textColorHint="@color/COLOR_FF979797"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="19dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:background="@color/COLOR_FFE9E9E9" />
+
+        <TextView
+            android:id="@+id/tv_end_time"
+            android:layout_width="139dp"
+            android:layout_height="27dp"
+            android:background="@drawable/bg_rectangle_filter_date"
+            android:gravity="center"
+            android:hint="结束时间"
+            android:textColor="@color/COLOR_FF1A1A1A"
+            android:textColorHint="@color/COLOR_FF979797"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_reset"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/COLOR_FFF2F2F2"
+            android:gravity="center"
+            android:text="重置"
+            android:textColor="@color/COLOR_FF1E90FF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/COLOR_FF1E90FF"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/COLOR_FF1677FF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginBottom="@dimen/dp_12"
+            android:drawableLeft="@mipmap/icon_pay_success"
+            android:drawablePadding="@dimen/dp_12"
+            android:gravity="center_vertical"
+            android:text="@string/pay_succeed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_pay_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:text="@string/pay_value"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_28"
+            android:layout_marginBottom="@dimen/dp_20">
+
+            <TextView
+                android:id="@+id/tv_back_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dp_12"
+                android:background="@drawable/shape_bg_tran_stroke_blue_18"
+                android:paddingLeft="@dimen/dp_24"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_24"
+                android:paddingBottom="@dimen/dp_8"
+                android:text="@string/back_home"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:id="@+id/tv_check_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_12"
+                android:background="@drawable/shape_bg_tran_stroke_blue_18"
+                android:paddingLeft="@dimen/dp_24"
+                android:paddingTop="@dimen/dp_8"
+                android:paddingRight="@dimen/dp_24"
+                android:paddingBottom="@dimen/dp_8"
+                android:text="@string/check_order"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_14" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/COLOR_FF333333"
+        android:textSize="@dimen/textsize_16"
+        android:textStyle="bold"
+        android:text="@string/stroll_around_again"
+        android:layout_marginTop="@dimen/dp_22"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_10"
+        />
+
+</LinearLayout>

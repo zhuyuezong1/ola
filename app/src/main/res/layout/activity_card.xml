@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_FFF2F2F2"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_actionbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionbar"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:divider="@drawable/divider_cdcdcd2"
+                android:orientation="vertical"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:showDividers="middle">
+
+                <RelativeLayout
+                    android:id="@+id/view_bank_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/bank_name"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_bank_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/iv_right_arrow_name"
+                        android:layout_toStartOf="@+id/iv_right_arrow_name"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/input_open_bank"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_right_arrow_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/detailed_description_2" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_branch_bank"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/branch_bank_name"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_branch_bank"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/input_open_branch_bank"
+                        android:maxWidth="220dp"
+                        android:singleLine="true"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textColorHint="@color/COLOR_FFB4B4B4"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_card_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/card_number"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_card_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/input_card_number"
+                        android:inputType="number"
+                        android:maxLength="19"
+                        android:maxWidth="220dp"
+                        android:singleLine="true"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textColorHint="@color/COLOR_FFB4B4B4"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_card_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/card_type"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_card_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@+id/iv_right_arrow"
+                        android:layout_toStartOf="@+id/iv_right_arrow"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/select_card_type_warning"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_right_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/detailed_description_2" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_host_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/card_host"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_card_host"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/input_card_host"
+                        android:maxWidth="220dp"
+                        android:singleLine="true"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textColorHint="@color/COLOR_FFB4B4B4"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_id_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/id_card"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_id_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/input_id_number"
+                        android:maxWidth="220dp"
+                        android:singleLine="true"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textColorHint="@color/COLOR_FFB4B4B4"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/view_tel_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="@string/tel_number"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/et_tel_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@null"
+                        android:gravity="end|center_vertical"
+                        android:hint="@string/input_tel"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:maxWidth="220dp"
+                        android:singleLine="true"
+                        android:textColor="@color/COLOR_FF1A1A1A"
+                        android:textColorHint="@color/COLOR_FFB4B4B4"
+                        android:textCursorDrawable="@null"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/set_default"
+                    android:textColor="@color/COLOR_FF1A1A1A"
+                    android:textSize="15sp" />
+
+                <CheckBox
+                    android:id="@+id/btn_set_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:button="@drawable/addr_default_selector"
+                    android:checked="false"
+                    android:scaleType="center" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/btn_binding"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/bg_rectangle_blue_corner"
+                android:gravity="center"
+                android:text="@string/binding"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <View
+        android:id="@+id/bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/COLOR_80000000"
+        android:visibility="gone" />
+
+    <com.kasa.ola.widget.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_actionbar"/>
+
+</RelativeLayout>

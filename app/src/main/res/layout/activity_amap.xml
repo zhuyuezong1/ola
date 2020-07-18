@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/mapLayout"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="260dp" />
+
+        <View
+            android:id="@+id/vCenter"
+            android:layout_width="1px"
+            android:layout_height="1px"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent"
+            />
+        <ImageView
+            android:id="@+id/iv_location"
+            android:layout_width="16dp"
+            android:layout_height="20dp"
+            android:focusable="false"
+            android:layout_alignBottom="@id/vCenter"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/icon_location"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mapLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="@dimen/dp_8"
+            android:gravity="center_vertical"
+            android:text="我的位置"
+            android:textColor="@color/COLOR_FF333333" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/bg_default_color"
+            />
+        <com.kasa.ola.widget.LoadMoreRecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.kasa.ola.widget.LoadMoreRecyclerView>
+    </LinearLayout>
+
+</RelativeLayout>
